@@ -1,0 +1,391 @@
+body {
+    overflow-x: hidden;
+}
+
+.section1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #C2E8F4;
+    padding: 8vw 18.4vw;
+}
+
+.section2 {
+    width: 100%;
+    height: 143px;
+    position: relative;
+    background-color: #F5F5F4;
+}
+
+.section2 .wave {
+    background-image: url(../img/sec2bluewave.png);
+    width: 100%;
+    height: 143px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: wave 3s linear infinite;
+}
+
+.allBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw 0 0;
+}
+
+.allBox .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 7vw 0 0;
+}
+
+.allBox .box:last-of-type {
+    margin: 0;
+}
+
+.allBox .box .img {
+    width: 16vw;
+    height: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.allBox .box .img img {
+    max-height: 100%;
+}
+
+.allBox .box a {
+    font-family: 'Gotham-Bold';
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.darkBtn {
+    width: 16vw;
+    height: auto;
+    font-size: 0.9vw;
+    border-radius: 3vw;
+    padding: 1vw 1.8vw 1vw 2vw;
+    letter-spacing: 0.05vw;
+}
+
+.darkBtn:hover p {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.allBox .darkBtn p {
+    width: 1.8vw;
+    height: 1.8vw;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    font-size: 1.7vw;
+    text-align: center;
+    font-family: 'GOTHAMROUNDED-BOOK';
+    margin: 0 0 0 2.6vw;
+    padding: 0;
+    text-decoration: none;
+    line-height: initial;
+}
+
+.allBox a:hover {
+    text-decoration: none;
+}
+
+.section3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F4;
+    padding: 9.5vw 18.4vw 10vw;
+}
+
+.section3 .h1 {
+    text-align: center;
+}
+
+.section3 .tipBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.section3 .tipBox:nth-of-type(2n) .pinkCircle {
+    margin: 0 0 0 1vw;
+}
+
+.section3 .tipBox:nth-of-type(2n) .text {
+    text-align: right;
+    margin: 4.2vw 5vw 0 0;
+    padding: 8.4vw 0;
+}
+
+.section3 .tipBox:nth-of-type(4) .text {
+    border: none;
+}
+
+.section3 .tipBox .pinkCircle {
+    border-radius: 50%;
+    width: 2.4vw;
+    height: 2.4vw;
+    background-color: #FF40B1;
+    margin: 0 1vw 0 0;
+}
+
+.section3 .tipBox .img {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.section3 .tipBox img {
+    width: 19vw;
+}
+
+.section3 .tipBox .text {
+    border-bottom: 0.22vw solid #EC008C;
+    margin: 4.2vw 0 0 5vw;
+    text-align: left;
+    padding: 8.4vw 1.3vw 8.4vw 0;
+}
+
+.section4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8vw 18.4vw;
+}
+
+.allPlans {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 13.5% 0 0;
+}
+
+.planBox {
+    width: 44%;
+    height: 29vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 4.3%;
+    border-radius: 5vw;
+}
+
+.planBox .num {
+    font-size: 1.83vw;
+    font-family: 'Gotham-Bold';
+    width: 51%;
+    height: 18%;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    background-color: rgba(191, 191, 191, 0.4);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3.8% 0;
+}
+
+.planBox .h1,
+.planBox .h2 {
+    font-size: 2.15vw;
+    letter-spacing: 0.6vw;
+    text-align: center;
+}
+
+.planBox a {
+    width: 47%;
+    font-size: 1.25vw;
+    font-family: 'Gotham_Rounded_Bold';
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 0.1vw;
+    cursor: pointer;
+}
+
+.planBox a img {
+    width: 1vw;
+}
+
+.section5 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 3vw 9.4vw;
+}
+
+.section5 .darkBtn {
+    width: 19vw;
+    height: 4.3vw;
+    background-image: url(../img/whiteArrow.png);
+    background-repeat: no-repeat;
+    background-size: 6%;
+    background-position: 90%;
+    font-size: 1.4vw;
+    padding: 1vw 2vw 1vw 0px;
+}
+
+.slider {
+    width: 78.2%;
+    height: 21.7vw;
+    margin: 0 -5vw 0 0;
+}
+
+.carousel-inner {
+    border-radius: 5vw 0 0 5vw;
+}
+
+.col-md-12 {
+    padding: 0;
+}
+
+.col-xs-4 {
+    width: 33.3%;
+    height: 21.6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-xs-4 img {
+    width: 9vw;
+    padding: 0;
+}
+
+.col-xs-4:nth-of-type(2n) {
+    /*    width: 33.3%;*/
+}
+
+.carousel-control.right {
+    background-color: black;
+    color: white;
+    width: 4.4vw;
+    height: 4.4vw;
+    border-radius: 1vw;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 46%;
+    right: 97%;
+}
+
+.row {
+    margin: 0;
+}
+
+.carousel-control.right:before {
+    content: "\e080";
+}
+
+.multi-item-carousel .carousel-inner > .item {
+    -webkit-transition: 500ms ease-in-out left;
+    transition: 500ms ease-in-out left;
+}
+
+.multi-item-carousel .carousel-inner .active.left {
+    left: -33%;
+}
+
+.multi-item-carousel .carousel-inner .active.right {
+    left: 33%;
+}
+
+.multi-item-carousel .carousel-inner .next {
+    left: 33%;
+}
+
+.multi-item-carousel .carousel-inner .prev {
+    left: -33%;
+}
+
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+    .multi-item-carousel .carousel-inner > .item {
+        -webkit-transition: 500ms ease-in-out left;
+        transition: 500ms ease-in-out left;
+        -webkit-transition: 500ms ease-in-out all;
+        transition: 500ms ease-in-out all;
+        -webkit-backface-visibility: visible;
+        backface-visibility: visible;
+        -webkit-transform: none !important;
+        transform: none !important;
+    }
+}
+
+.multi-item-carousel .carouse-control.left,
+.multi-item-carousel .carouse-control.right {
+    background-image: none;
+}
+
+.h1,
+.h2 {
+    margin: 0;
+}
+
+@media all and (max-width:768px) {
+    .allBox .box .img {
+        width: 22vw;
+        height: 19vw;
+    }
+
+    .darkBtn {
+        width: 20vw;
+        font-size: 1.3vw;
+    }
+
+    .allBox .darkBtn p {
+        width: 2.2vw;
+        height: 2.2vw;
+        font-size: 2.2vw;
+    }
+
+    .section3 {
+        padding: 9.5vw 11vw 10vw;
+    }
+
+    .carousel-control.right:before {
+        content: "\e080";
+        position: relative;
+        top: -0.2vw;
+        font-size: 2.1vw;
+    }
+}
+
+@media all and (max-width:425px) {
+    .section4 {
+        padding: 8vw 15vw;
+    }
+
+    .planBox {
+        height: 32vw;
+    }
+}

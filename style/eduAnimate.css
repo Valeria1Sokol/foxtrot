@@ -1,0 +1,211 @@
+
+#h21:after,
+#h12:after,
+#h13:after,
+#h22:after,
+#h23:after,
+#p1:after,
+#p2:after,
+#p3:after,
+#p4:after {
+    content: "";
+    transition: all 1s;
+}
+
+
+#h21:after {
+    animation: h21 7s ease-in-out infinite;
+}
+
+#h12:after {
+    animation: h12 12s ease-in-out infinite;
+}
+
+#h13:after {
+    animation: h13 12s ease-in-out infinite;
+}
+
+#h22:after {
+    animation: h22 12s ease-in-out infinite;
+}
+
+#h23:after {
+    animation: h23 12s ease-in-out infinite;
+}
+
+#p1:after {
+    animation: p1 12s ease-in-out infinite;
+}
+
+#p2:after {
+    animation: p2 12s ease-in-out infinite;
+}
+
+#p3:after {
+    animation: p3 12s ease-in-out infinite;
+}
+
+#p4:after {
+    animation: p4 12s ease-in-out infinite;
+}
+
+@keyframes h21 {
+    0% {
+        content: "A massive corporate company";
+    }
+
+    50% {
+        content: "An independent university";
+    }
+
+    80% {
+        content: "A popular high school";
+    }
+
+    100% {
+        content: "A massive corporate company";
+    }
+}
+
+@keyframes h12 {
+    0% {
+        content: "With hundreds";
+    }
+
+    50% {
+        content: "With hundreds";
+    }
+
+    80% {
+        content: "With thousands";
+    }
+
+    100% {
+        content: "With hundreds";
+    }
+}
+
+@keyframes h22 {
+    0% {
+        content: "Of new employees";
+    }
+
+    50% {
+        content: "Of excited students";
+    }
+
+    80% {
+        content: "Of students";
+    }
+
+    100% {
+        content: "Of new employees";
+    }
+}
+@keyframes h13 {
+    0% {
+        content: "TELL YOUR ";
+    }
+
+    50% {
+        content: "TELL YOUR tech-";
+    }
+
+    80% {
+        content: "TELL YOUR tech-";
+    }
+
+    100% {
+        content: "TELL YOUR ";
+    }
+}
+
+@keyframes h23 {
+    0% {
+        content: "Unsure employees";
+    }
+
+    50% {
+        content: "Loving students";
+    }
+
+    80% {
+        content: "Savvy students";
+    }
+
+    100% {
+        content: "Unsure employees";
+    }
+}
+
+@keyframes p1 {
+    0% {
+        content: "But they can’t remember everything and fully understand what their job requires of them after receiving only a one-hour crash course.";
+    }
+
+    50% {
+        content: "But they aren’t as excited about learning about how to get around their new campus from just a map as you hoped.";
+    }
+
+    80% {
+        content: "But both the students and teachers feel that they don’t connect with their school’s identity as much as they would like to.";
+    }
+
+    100% {
+        content: "But they can’t remember everything and fully understand what their job requires of them after receiving only a one-hour crash course.";
+    }
+}
+
+@keyframes p2 {
+    0% {
+        content: "To explain every detail of your employees job to train your staff without doing it yourself? It’s clear, you use augmented reality with Foxtrot to make an easy to use step by step training guide.";
+    }
+
+    50% {
+        content: "To construct an engaging experience for students to learn about their classes and way around campus? Pretty simple really, you use the capability of augmented reality with Foxtrot to create an easy to use interactive guide.";
+    }
+
+    80% {
+        content: "To connect with your tech-savvy students and make staff member’s lives easier? Easy, you use the power of augmented reality with Foxtrot to design an easy to use step by step guide.";
+    }
+
+    100% {
+        content: "To explain every detail of your employees job to train your staff without doing it yourself? It’s clear, you use augmented reality with Foxtrot to make an easy to use step by step training guide.";
+    }
+}
+
+@keyframes p3 {
+    0% {
+        content: "To visit your website or portal and scan any key access point in the office, such as their desk to ignite content that explains their job role in their department, responsibilities and who to report to.";
+    }
+
+    50% {
+        content: "To visit your website or portal and scan a notice board to ignite a map of where to find classrooms, bathrooms, dorm rooms and, a schedule for orientation week. They could even scan a professors door to learn more about their class.";
+    }
+
+    80% {
+        content: "To visit your website or portal and scan anything from a textbook to a hoodie to find out how much it costs and how to order it or buy it at the school shop.";
+    }
+
+    100% {
+        content: "To visit your website or portal and scan any key access point in the office, such as their desk to ignite content that explains their job role in their department, responsibilities and who to report to.";
+    }
+}
+
+@keyframes p4 {
+    0% {
+        content: "Now you can create an on-the-job training augmented reality experience in a couple of easy steps for just a few dollars a month. Imagine the effectiveness once you have the Foxtrot button on your website.";
+    }
+
+    50% {
+        content: "Now you can set up your own augmented reality experience for your students in a few easy steps for just a few dollars a month. Imagine the possibilities once you have the Foxtrot button on your website.";
+    }
+
+    80% {
+        content: "Now you can create an augmented reality experience in just a few clicks for only a few dollars a month. Imagine the capabilities once you have the Foxtrot button on your website.";
+    }
+
+    100% {
+        content: "Now you can create an on-the-job training augmented reality experience in a couple of easy steps for just a few dollars a month. Imagine the effectiveness once you have the Foxtrot button on your website.";
+    }
+}

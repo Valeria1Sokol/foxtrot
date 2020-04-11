@@ -1,0 +1,219 @@
+#h11::after,
+#h21:after,
+#h12:after,
+#h13:after,
+#h22:after,
+#h23:after,
+#p1:after,
+#p2:after,
+#p3:after,
+#p4:after {
+    content: "";
+    transition: all 1s;
+}
+
+#h11:after {
+    animation: h11 7s ease-in-out infinite;
+    -webkit-animation: h11 7s ease-in-out infinite;
+}
+
+#h21:after {
+    animation: h21 7s ease-in-out infinite;
+}
+
+#h12:after {
+    animation: h12 12s ease-in-out infinite;
+}
+
+#h13:after {
+    animation: h13 12s ease-in-out infinite;
+}
+
+#h22:after {
+    animation: h22 12s ease-in-out infinite;
+}
+
+#h23:after {
+    animation: h23 12s ease-in-out infinite;
+}
+
+#p1:after {
+    animation: p1 12s ease-in-out infinite;
+}
+
+#p2:after {
+    animation: p2 12s ease-in-out infinite;
+}
+
+#p3:after {
+    animation: p3 12s ease-in-out infinite;
+}
+
+#p4:after {
+    animation: p4 12s ease-in-out infinite;
+}
+
+@keyframes h11 {
+    0% {
+       content: "LET’S SAY YOU’RE";
+    }
+
+    50% {
+        content: "LET’S SAY YOU’RE AN";
+    }
+
+    80% {
+        content: "LET’S SAY YOU’RE";
+    }
+
+    100% {
+        content: "LET’S SAY YOU’RE";
+    }
+}
+
+
+@keyframes h21 {
+    0% {
+        content: "AN INTERNATIONAL ART GALLERY";
+    }
+
+    50% {
+        content: "INTERNATIONAL COLLECTION OF MUSEUMS";
+    }
+
+    80% {
+        content: "AN INDEPENDENT THEATRE";
+    }
+
+    100% {
+        content: "AN INTERNATIONAL ART GALLERY";
+    }
+}
+
+@keyframes h12 {
+    0% {
+        content: "with thousands";
+    }
+
+    50% {
+        content: "With hundreds";
+    }
+
+    80% {
+        content: "With world-";
+    }
+
+    100% {
+        content: "with thousands";
+    }
+}
+
+
+
+@keyframes h22 {
+    0% {
+        content: "Of PEOPLE VISITING";
+    }
+
+    50% {
+        content: "Of excited viewers";
+    }
+
+    80% {
+        content: "Class acts";
+    }
+
+    100% {
+        content: "Of PEOPLE VISITING";
+    }
+}
+
+@keyframes h23 {
+    0% {
+        content: "Disengaged viewers";
+    }
+
+    50% {
+        content: "Disconnected viewers";
+    }
+
+    80% {
+        content: "Unaware audience";
+    }
+
+    100% {
+        content: "Disengaged viewers";
+    }
+}
+
+@keyframes p1 {
+    0% {
+        content: "But you’ve noticed a decline in attendance rates in recent years and visitors are<br>seeking out a more interactive and exciting experience when they visit.";
+    }
+
+    50% {
+        content: "But they’re growing tired of seeing the same exhibits and crowding around the small rationale plaque to read the history and then leaving feeling disconnected and disengaged.";
+    }
+
+    80% {
+        content: "But your headlining act brings in huge audiences while your featuring acts, merchandise and food shop doesn’t attract as many people as they should.";
+    }
+
+    100% {
+        content: "But you’ve noticed a decline in attendance rates in recent years and visitors are<br>seeking out a more interactive and exciting experience when they visit.";
+    }
+}
+
+@keyframes p2 {
+    0% {
+        content: "To create a new thought provoking experience to connect with viewers and entice them to come back? It’s clear, you use augmented reality with Foxtrot to create an easy to use interactive guide.";
+    }
+
+    50% {
+        content: "To grab their attention with an engaging experience that connects them with the exhibits? Simple, you use the power of augmented reality with Foxtrot to create an easy to use step by step handbook.";
+    }
+
+    80% {
+        content: "To draw attention to these other areas of your theatre without taking away from the headlining act? Easy, you use the wonders of augmented reality with Foxtrot to create an easy to use content ignitor.";
+    }
+
+    100% {
+        content: "To create a new thought provoking experience to connect with viewers and entice them to come back? It’s clear, you use augmented reality with Foxtrot to create an easy to use interactive guide.";
+    }
+}
+
+@keyframes p3 {
+    0% {
+        content: "To visit your website and scan any artwork to ignite information on the artist and their work. They could scan a key access point in the gallery to ignite a map and the souvenir shop to view any items they want to buy.";
+    }
+
+    50% {
+        content: "To visit your website and scan any exhibit to bring up information on the artist and their work. A museum guide and merchandise shop could also be brought up to guide them and show them any items they want to buy.";
+    }
+
+    80% {
+        content: "To visit your website and scan the headline act’s poster to ignite information about other acts, their work and your shop to view any items they want to buy after the show.";
+    }
+
+    100% {
+        content: "To visit your website and scan any artwork to ignite information on the artist and their work. They could scan a key access point in the gallery to ignite a map and the souvenir shop to view any items they want to buy.";
+    }
+}
+
+@keyframes p4 {
+    0% {
+        content: "Now you can create a stimulating augmented reality experience in a few simple steps for just a few dollars a month. Imagine the creative potential once you have the Foxtrot button on your website.";
+    }
+
+    50% {
+        content: "Now you can design your own augmented reality experience in a few easy steps for a small amount a month. Imagine the capabilities once you have the Foxtrot button on your website.";
+    }
+
+    80% {
+        content: "Now you can make a unique augmented reality experience in a few straightforward steps for just a few dollars a month. Imagine the limitless capabilities once you have the Foxtrot button on your website.";
+    }
+
+    100% {
+        content: "Now you can create a stimulating augmented reality experience in a few simple steps for just a few dollars a month. Imagine the creative potential once you have the Foxtrot button on your website.";
+    }
+}

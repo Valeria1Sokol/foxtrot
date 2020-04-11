@@ -1,0 +1,578 @@
+header {
+    background-color: #FFFF00 !important;
+}
+
+.searchBox .searchInput {
+    background-color: #FFFF00;
+}
+
+body {
+    /*    overflow-x: hidden;*/
+}
+
+.section1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFF00;
+    padding: 7.2% 6.8% 9% 17.5%;
+}
+
+.subMenuBox {
+    background-color: #FFFF00!important;
+}
+
+.section1 .p {
+    margin-top: 2.1vw;
+}
+
+.section1 .inputBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3.4vw;
+    padding: 0 13% 0 0;
+}
+
+.section1 .img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 0 0 4vw;
+    position: relative;
+}
+
+.section1 .secImg {
+    width: 25vw;
+    margin: 0 6vw 0 0;
+}
+
+.section1 .letter {
+    width: 10.5vw;
+}
+
+.section3,
+.section2 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.h2 span {
+    font-family: 'GOTHAMROUNDED-BOOK';
+}
+
+.section2 .video {
+    width: 67%;
+    height: 37vw;
+    background-color: #D8D6D6;
+    margin: -6.4vw 0 5.8vw;
+}
+
+.pinkText {
+    font-size: 3vw;
+    color: #EC008C;
+    font-family: 'Gotham-Bold';
+    margin: 9% 0 5%;
+    letter-spacing: 0.8vw;
+}
+
+.section2 .darkBtn {
+    width: 21.1vw;
+    height: 5vw;
+    font-size: 1.4vw;
+}
+
+.section2 .whiteBtn {
+    width: 26vw;
+    height: 6.6vw;
+    margin: 0 0 33%;
+}
+
+.section2 .whiteBtn span {
+    width: 26vw;
+    height: 6.6vw;
+    font-size: 1.9vw;
+    background-size: 9%;
+}
+
+.btnCont {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.btnCont img {
+    position: absolute;
+    width: 2vw;
+    margin: 1vw 0 0 13vw;
+}
+
+.section3 {
+    width: 100vw;
+    height: 143px;
+    position: relative;
+}
+
+.section3 .wave {
+    background-image: url(../img/sec2BG.png);
+    width: 100%;
+    height: 143px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: wave 3s linear infinite;
+}
+
+
+.section4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1DCEB;
+    padding: 7% 0 0;
+}
+
+.section4 .textBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 6% 14% 0 0;
+    background: rgb(241, 220, 235);
+    background: linear-gradient(180deg, rgba(241, 220, 235, 1) 87%, rgba(255, 255, 255, 1) 87%);
+    position: relative;
+}
+
+.section4 .textBox .ballon {
+    width: 57%;
+    margin: 0 7.5% 0 0;
+}
+
+.section4 .whiteBtn {
+    width: 19.2vw;
+    font-size: 1.36vw;
+    background-size: 10%;
+}
+
+.section4 .btnCont {
+    margin-top: 3.3vw;
+    justify-content: flex-start;
+}
+
+.section4 .btnCont img {
+    margin: 0vw;
+    right: 23%;
+}
+
+.section4 .h1 {
+    padding-left: 17.5%;
+}
+
+.section4 .h2 {
+    padding-left: 25.5%;
+}
+
+.section4 .textBox .text {
+    padding: 11.5% 0 0;
+}
+
+.section5 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8% 0 11.3%;
+}
+
+.section5 .boxCont {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9% 0 0;
+    position: relative;
+}
+
+.section5 .boxCont .box {
+    width: 19vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 4.7% 0 0;
+}
+
+.section5 .boxCont .box:last-of-type {
+    margin: 0;
+}
+
+.section5 .boxCont .box .tittle {
+    font-family: 'GothamHTF-Black';
+    font-size: 1.6vw;
+    text-transform: uppercase;
+    margin: 16% 0;
+}
+
+.section5 .boxCont .box img {
+    max-width: 100%;
+}
+
+.section5 .boxCont .box .darkBtn {
+    text-align: left;
+    font-size: 1.05vw;
+    padding: 0.2vw 3.3vw 0 2.8vw;
+    background-image: url(../img/arrowBtn.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 90%;
+}
+
+.section5 .h1 {
+    text-align: center;
+}
+
+.section6 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #C4EBF7;
+    padding: 10% 17.5% 16%;
+    position: relative;
+}
+
+.section6 .textBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 9% 0 0;
+    position: relative;
+}
+
+.section6 .ballon {
+    width: 42%;
+    margin: 0 7.8% 0 0;
+}
+
+.section6 .darkBtn {
+    width: 21vw;
+    height: 4.9vw;
+    font-size: 1.36vw;
+}
+
+.section6 .btnCont {
+    margin-top: 3.3vw;
+    justify-content: flex-start;
+}
+
+.section6 .btnCont img {
+    margin: 0vw;
+    right: 20%;
+}
+
+.section7 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFF86;
+    padding: 0 0 7.2% 17.5%;
+    position: relative;
+}
+
+.section7 .h1 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 16%;
+}
+
+.section7 .h1 span {
+    font-family: 'GOTHAMROUNDED-BOOK';
+    font-size: 3vw;
+}
+
+.section7 .h2 {
+    width: auto;
+    margin: 0 0.5vw 0 2.3vw;
+}
+
+.section7 .textBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.section7 .textBox .text {
+    padding: 10vw 0 0;
+}
+
+.section7 .ballon {
+    width: 58%;
+    margin: -11% 0 0 5%;
+}
+
+.section7 .darkBtn {
+    width: 18.2vw;
+    height: 4.9vw;
+    font-size: 1.36vw;
+}
+
+.section7 .btnCont {
+    margin-top: 3.3vw;
+    justify-content: flex-start;
+}
+
+.section7 .btnCont img {
+    margin: 0vw;
+    right: 20%;
+}
+
+.section8 {
+    width: 100vw;
+    height: 143px;
+    position: relative;
+}
+
+.section8 .wave {
+    background-image: url(../img/sec7BG.png);
+    width: 100%;
+    height: 143px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: wave 3s linear infinite;
+}
+
+.section9 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8.7% 0;
+}
+
+.section9 .inputBox {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section9 .inputBox .email {
+    width: 62.2vw;
+    height: 7.8vw;
+    border: 1px solid #000000;
+    border-radius: 4vw;
+    font-size: 1.65vw;
+    font-family: 'GOTHAMROUNDED-BOOK';
+    color: black;
+    padding: 0 3vw;
+    outline: none;
+}
+
+
+.section9 .inputBox .email::placeholder {
+    text-transform: uppercase;
+    letter-spacing: 0.2vw;
+}
+
+.section9 h1 {
+    font-size: 2.2vw;
+    font-family: 'GothamRoundedMedium_21022';
+    text-transform: uppercase;
+    margin: 0 0 2vw;
+    letter-spacing: 0.6vw;
+}
+
+.section9 .inputBox .footerBtn {
+    width: 100%;
+    height: 100%;
+    font-size: 1.2vw;
+    font-family: 'Gotham-Bold';
+    padding: 0 6.3vw;
+    border-radius: 2vw;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.17vw;
+}
+
+.section9 .inputBox a {
+    position: absolute;
+    right: 3%;
+    width: 19vw;
+    height: 4.3vw;
+}
+
+@media all and (max-width:768px) {
+    .section4 {
+        padding: 2% 0 0;
+    }
+
+    .section5 .boxCont {
+        padding: 7% 8% 0;
+    }
+
+    .section5 .boxCont .box .tittle {
+        font-size: 2.2vw;
+        margin: 12% 0;
+    }
+
+    .section5 .boxCont .box .darkBtn {
+        font-size: 1.15vw;
+        width: 18.7vw;
+        padding: 0.2vw 5.3vw 0 2.8vw;
+    }
+
+    .section6 {
+        padding: 10% 11.5% 16%;
+    }
+
+    .section4 .textBox {
+        padding: 6% 8% 0 0;
+    }
+
+    .section4 .textBox .ballon {
+        width: 51%;
+    }
+
+    .section7 {
+        padding: 0 0 7.2% 11.5%;
+    }
+
+    .section1 {
+        padding: 7.2% 6.8% 9% 11.5%;
+    }
+
+    .section5 .boxCont {
+        justify-content: space-between;
+    }
+
+    .section5 .boxCont .box {
+        width: 22vw;
+    }
+    .section9 .inputBox .footerBtn
+    {
+        height: 4.3vw;
+    }
+
+
+}
+
+@media all and (max-width:425px) {
+    .section1 {
+        padding: 7.2% 2.8% 16% 11.5%;
+    }
+
+    .section1 .inputBox {
+        padding: 0;
+    }
+
+    .section2 .darkBtn {
+        width: 27.1vw;
+        height: 6.5vw;
+        font-size: 2vw;
+    }
+
+    .btnCont img {
+        margin: 1vw 0 0 18vw;
+    }
+
+    .section2 .whiteBtn span {
+        font-size: 2vw;
+    }
+
+    .section4 .textBox .ballon {
+        width: 41%;
+    }
+
+    .section4 .textBox .text {
+        padding: 5.5% 0 0;
+    }
+
+    .section4 .textBox {
+        background: linear-gradient(180deg, rgba(241, 220, 235, 1) 92%, rgba(255, 255, 255, 1) 92%);
+    }
+
+    .section4 .h1,
+    .section4 .h2 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .section4 .whiteBtn {
+        width: 25vw;
+    }
+
+    .section5 .boxCont .box .darkBtn {
+        font-size: 1.8vw;
+        width: 23.7vw;
+        padding: 0.2vw 5.3vw 0 2.8vw;
+        background-size: 9%;
+    }
+
+    .section6 .darkBtn,
+    .section7 .darkBtn {
+        font-size: 2vw;
+        width: 25vw;
+        height: 6.5vw;
+    }
+
+    .btnCont img {
+        width: 2.3vw;
+        height: 2vw;
+    }
+
+    .section7 .ballon {
+        width: 47%;
+        margin: -6% 0 0 5%;
+    }
+
+    .section7 .textBox .text {
+        padding: 4vw 0 0;
+    }
+
+    .section7 .h1 {
+        margin: 0 0 12%;
+    }
+
+    .section9 .inputBox .footerBtn {
+        font-size: 2vw;
+        width: 23vw;
+        height: 5vw;
+        padding: 1.8vw 0 2vw;
+        border-radius: 4vw;
+    }
+
+    .section9 .inputBox a {
+        position: absolute;
+        right: 2%;
+        width: fit-content;
+        height: fit-content;
+    }
+}
