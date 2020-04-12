@@ -490,19 +490,6 @@ body {
     .section3, .section8 {
         height: 52px;
     }
-
-    @keyframes wave {
-        0% {
-            background-position: 0;
-        }
-
-        100% {
-            background-position: 440px;
-        }
-    }
-
-
-
 }
 
 @media all and (max-width:425px) {
