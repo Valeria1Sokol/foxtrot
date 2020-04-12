@@ -1,235 +1,185 @@
 
-#h21:after,
-#h12:after,
-#h13:after,
-#h22:after,
-#h23:after,
-#p1:after,
-#p2:after,
-#p3:after,
-#p4:after {
-    content: "";
-    transition: all 1s;
+.main .rel {
+    position: relative;
+    width: 100%;
+    margin: 0 0 3vw;
 }
 
-
-#h21:after {
-    animation: h21 7s ease-in-out infinite;
+.box .rel {
+    position: relative;
+    width: 100%;
+    margin: 0 0 3vw;
 }
 
-#h12:after {
-    animation: h12 18s ease-in-out infinite;
+.box .text {
+    position: absolute;
+    width: 100%;
 }
 
-#h22:after {
-    animation: h22 18s ease-in-out infinite;
+.main .text {
+    position: absolute;
+    width: 100%;
 }
 
-#h23:after {
-    animation: h23 18s ease-in-out infinite;
+.section2 .main .text:first-of-type {
+    animation: h11First 9s step-start infinite;
 }
 
-#p1:after {
-    animation: p1 18s ease-in-out infinite;
+.section2 .main .text:nth-of-type(2) {
+    animation: h11Second 9s step-start infinite;
 }
 
-#p2:after {
-    animation: p2 18s ease-in-out infinite;
+.section2 .main .text:nth-of-type(3) {
+    animation: h11Third 9s step-start infinite;
+}
+.section2 .main .text:nth-of-type(4) {
+    animation: h11Fourth 9s step-start infinite;
+}
+.section2 .main .text:nth-of-type(5) {
+    animation: h11Fifth 9s step-start infinite;
+}
+.section2 .box .text:first-of-type {
+    animation: h11First 12s step-start infinite;
 }
 
-#p3:after {
-    animation: p3 18s ease-in-out infinite;
+.section2 .box .text:nth-of-type(2) {
+    animation: h11Second 12s step-start infinite;
 }
 
-#p4:after {
-    animation: p4 18s ease-in-out infinite;
+.section2 .box .text:nth-of-type(3) {
+    animation: h11Third 12s step-start infinite;
+}
+.section2 .box .text:nth-of-type(4) {
+    animation: h11Fourth 12s step-start infinite;
+}
+.section2 .box .text:nth-of-type(5) {
+    animation: h11Fifth 12s step-start infinite;
 }
 
-
-@keyframes h21 {
+@keyframes h11First {
     0% {
-        content: "A trendy new bar";
-    }
-
-    50% {
-        content: "A CONTINENT WIDE COFFEE COMPANY";
-    }
-
-    80% {
-        content: "An independent health shop";
-    }
-
-    100% {
-        content: "A trendy new bar";
-    }
-}
-
-
-
-@keyframes h12 {
-    0% {
-        content: "With a buzz";
+        opacity: 1;
     }
 
     20% {
-        content: "With hundreds";
+        opacity: 0;
     }
 
     40% {
-        content: "With lots";
+        opacity: 0;
     }
     60% {
-        content: "With lots of gym";
+        opacity: 0;
     }
     80% {
-        content: "With people ";
+        opacity: 0;
     }
 
-    100% {
-        content: "With a buzz";
+    99% {
+        opacity: 1;
     }
 }
 
-@keyframes h22 {
+@keyframes h11Second {
     0% {
-        content: "Of happy people";
+        opacity: 0;
     }
 
     20% {
-        content: "Of coffee lovers";
+        opacity: 1;
     }
 
     40% {
-        content: "Of loyal customers";
-    }
-     60% {
-        content: "bunny customers";
-    }
-     80% {
-        content: "Coming from all over";
-    }
-
-    100% {
-        content: "Of happy people";
-    }
-}
-
-@keyframes h23 {
-    0% {
-        content: "Unsure customers";
-    }
-
-    20% {
-        content: "Coffee customers";
-    }
-
-    40% {
-        content: "Hesitant customers";
+        opacity: 0;
     }
     60% {
-        content: "Confused customers";
+        opacity: 0;
     }
     80% {
-        content: "Unaware customers";
+        opacity: 0;
     }
 
     100% {
-        content: "Unsure customers";
+        opacity: 0;
     }
 }
 
-@keyframes p1 {
+@keyframes h11Third {
     0% {
-        content: "But they don’t understand the identity of your bar as it gets lost when your alcoholic sponsors insist on having their branded logo shown in and around the bar.";
+        opacity: 0;
     }
 
     20% {
-        content: "But they don’t have the necessary means to connect with your brand, employees and the purpose of your brand on a deeper level in the short amount of time that they’re there.";
+        opacity: 0;
     }
 
     40% {
-        content: "But they are often unsure with which product is right for them to use and you and your employees, who know your brand aren’t always there to help.";
-    }
-     60% {
-        content: "But they buy your products in bigger stores that feature your brand and are often confused as to which product to buy that’s right for their body and what they want to do for their body.";
-    }
-     80% {
-        content: "But they aren’t getting the full story about you, your restaurant, your employees and the story behind your food. ";
-    }
-
-    100% {
-        content: "But they don’t understand the identity of your bar as it gets lost when your alcoholic sponsors insist on having their branded logo shown in and around the bar.";
-    }
-}
-
-@keyframes p2 {
-    0% {
-        content: "To visit your website and scan their branded glass to ignite information about the drink; what it’s made up of, the brand of alcohol, cost, who prepared it and what their favorite drink is.";
-    }
-
-    20% {
-        content: "To improve the connection between your brand and consumers on a more personal level? Quite simple, you use the marvellous tech of augmented reality with Foxtrot to create an easy to use way to show curated content.";
-    }
-
-    40% {
-        content: "To give them more knowledge to purchase the right items without you physically being there? Easy, you use the power of augmented reality with Foxtrot to create an easy to use step by step handbook.";
-    }
-     60% {
-        content: "To help your customer find the right product to suit their needs without physically being there? Simple, you use the potential of augmented reality with Foxtrot to create an easy to use product guide.";
-    }
-     80% {
-        content: "To shed more light on your cooking style, the stories behind each meal and your employees with your customers? It’s clear, you use the capabilities of augmented reality with Foxtrot to create an easy to use guide.";
-    }
-
-    100% {
-        content: "To visit your website and scan their branded glass to ignite information about the drink; what it’s made up of, the brand of alcohol, cost, who prepared it and what their favorite drink is.";
-    }
-}
-
-@keyframes p3 {
-    0% {
-        content: "To visit your website and scan their branded glass to ignite information about the drink; what it’s made up of, the brand of alcohol, cost, who prepared it and what their favorite drink is.";
-    }
-
-    20% {
-        content: "To visit your website and scan the menu or coffee cup to ignite content that educates them about the coffee they’re drinking, what your brand stands for and what the barista’s favorite coffee is.";
-    }
-
-    40% {
-        content: "To visit your website and scan any product to bring up information such as who should use that product, what it’s made of and workout exercises you should do to enhance the impact of the product.";
+        opacity: 1;
     }
     60% {
-        content: "To visit your website and scan any product to ignite information about who should use this product, how to use it and what workouts they should do to get the maximum out of it. ";
+        opacity: 0;
     }
     80% {
-        content: "To visit your website and scan their meal to find out how the dish was cooked, who cooked it, which drink goes best with it and the backstory of how your restaurant started.";
+        opacity: 0;
     }
 
     100% {
-        content: "To visit your website and scan their branded glass to ignite information about the drink; what it’s made up of, the brand of alcohol, cost, who prepared it and what their favorite drink is.";
+        opacity: 0;
     }
 }
-
-@keyframes p4 {
+@keyframes h11Fourth {
     0% {
-        content: "Now you can build your own augmented reality experience in a couple of easy steps for just a few dollars a month. Imagine the unlimited possibilities once you have the Foxtrot button on your website.";
+        opacity: 0;
     }
 
     20% {
-        content: "Now you can produce an engaging augmented reality experience in a few easy steps for just a few dollars a month. Imagine what you could create once you have the Foxtrot button on your website.";
+        opacity: 0;
     }
 
     40% {
-        content: "Now you can construct a unique augmented reality experience in just a couple of easy steps for a few dollars a month. Imagine the reach of your brand once you have the Foxtrot button on your website.";
+        opacity: 0;
     }
-     60% {
-        content: "Now you can create a special augmented reality experience in a few clicks for just a few dollars a month. Imagine the possibilities once you have the Foxtrot button on your website.";
+    60% {
+        opacity: 1;
     }
-     80% {
-        content: "Now you can make an augmented reality experience in your restaurant in a few clicks for just a few dollars a month. Imagine the possibilities once you have the Foxtrot button on your website.";
+    80% {
+        opacity: 0;
     }
 
     100% {
-        content: "Now you can build your own augmented reality experience in a couple of easy steps for just a few dollars a month. Imagine the unlimited possibilities once you have the Foxtrot button on your website.";
+        opacity: 0;
     }
 }
+@keyframes h11Fifth {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
