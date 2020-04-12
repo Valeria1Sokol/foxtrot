@@ -387,7 +387,7 @@ body {
 
     .planBox {
         height: 36vw;
-/*        width: 50%;*/
+        /*        width: 50%;*/
     }
 
     .section2 .wave {
@@ -395,17 +395,32 @@ body {
         height: 52px;
         animation: wave 5s linear infinite;
     }
-.section3 br
-    {
+
+    .section3 br {
         display: none;
     }
+
     .section2 {
         height: 52px;
     }
-    .planBox .h1, .planBox .h2 {
-    font-size: 3vw;
-}
+
+    .planBox .h1,
+    .planBox .h2 {
+        font-size: 3vw;
+    }
+
     .planBox .num {
-    font-size: 2vw;
-}
+        font-size: 2vw;
+    }
+     .carousel-control.right:before {
+        content: "\e080";
+        position: relative;
+        top: 0vw;
+    }
+
+    .section5
+    {
+        position: relative;
+        overflow-x: hidden;
+    }
 }
