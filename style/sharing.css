@@ -387,7 +387,6 @@ body {
 
     .planBox {
         height: 36vw;
-        /*        width: 50%;*/
     }
 
     .section2 .wave {
@@ -418,7 +417,7 @@ body {
         top: 0vw;
     }
 
-    .section5
+    .section5, .section3, .section4
     {
         position: relative;
         overflow-x: hidden;
