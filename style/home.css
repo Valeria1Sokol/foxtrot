@@ -495,6 +495,8 @@ body {
 @media all and (max-width:425px) {
     .section1 {
         padding: 7.2% 2.8% 16% 11.5%;
+        position: relative;
+        overflow-x: hidden;
     }
 
     .section1 .inputBox {
@@ -513,6 +515,11 @@ body {
 
     .section2 .whiteBtn span {
         font-size: 2vw;
+    }
+    .section4 ,  .section5,  .section6,  .section7
+    {
+        position: relative;
+        overflow-x: hidden;
     }
 
     .section4 .textBox .ballon {
