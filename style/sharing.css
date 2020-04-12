@@ -422,4 +422,8 @@ body {
         position: relative;
         overflow-x: hidden;
     }
+    .planBox a {
+    width: 65%;
+    font-size: 2.25vw;
+}
 }
