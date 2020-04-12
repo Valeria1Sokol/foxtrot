@@ -227,7 +227,5 @@ header {
 }
 }
 @media (max-width: 375px) {
-    .section2 {
-        margin: -40% 0 0;
-    }
+   
 }
