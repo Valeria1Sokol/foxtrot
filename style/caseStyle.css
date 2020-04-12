@@ -197,8 +197,24 @@ header {
     }
 
     .section2 {
-        padding: 0 9%;
+        padding: 0 5%;
     }
+
+    .section2 .h1,
+    .section2 .h2 {
+        font-size: 3.8vw;
+    }
+
+    .section1 .wave {
+        background-size: cover;
+        height: 52px;
+        animation: wave 5s linear infinite;
+    }
+
+    .section1 {
+        height: 52px;
+    }
+    
 }
 
 @media all and (max-width:320px) {

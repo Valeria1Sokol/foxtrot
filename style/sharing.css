@@ -382,10 +382,30 @@ body {
 
 @media all and (max-width:425px) {
     .section4 {
-        padding: 8vw 15vw;
+        padding: 8vw;
     }
 
     .planBox {
-        height: 32vw;
+        height: 36vw;
+/*        width: 50%;*/
     }
+
+    .section2 .wave {
+        background-size: cover;
+        height: 52px;
+        animation: wave 5s linear infinite;
+    }
+.section3 br
+    {
+        display: none;
+    }
+    .section2 {
+        height: 52px;
+    }
+    .planBox .h1, .planBox .h2 {
+    font-size: 3vw;
+}
+    .planBox .num {
+    font-size: 2vw;
+}
 }

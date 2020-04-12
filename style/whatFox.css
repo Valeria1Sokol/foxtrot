@@ -307,6 +307,12 @@ header {
     .section6 .box .text {
         padding: 5.7% 7.5% 8.4% 9.5%;
     }
+     .section1 ,  .section3,  .section4,  .section5
+    {
+        position: relative;
+        overflow-x: hidden;
+    }
+  
 }
 
 @media all and (max-width:425px) {
@@ -321,11 +327,18 @@ header {
     .section2 {
         padding: 0% 0 6%;
     }
-
-    .section3 {
-        position: relative;
-        overflow-x: hidden;
+       .section5 .wave {
+        height: 52px;
+        background-size: cover;
+        animation: wave 5s linear infinite;
     }
+
+    .section5 {
+        height: 52px;
+    }
+
+  
+   
 
     .section4 {
         background-color: #C4EBF7;
@@ -342,15 +355,7 @@ header {
         font-size: 3.2vw;
     }
 
-    .section5 .wave {
-        height: 52px;
-        background-size: cover;
-        animation: wave 5s linear infinite;
-    }
-
-    .section5 {
-        height: 52px;
-    }
+   
 
     .section4 .boxTop div:last-of-type {
         margin: -2% 0 0;

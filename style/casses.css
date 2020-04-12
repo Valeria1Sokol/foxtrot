@@ -199,15 +199,32 @@ header {
     }
 
     .top {
-        padding: 10.5% 0 8%;
+        padding: 10.5% 0 14%;
     }
+     .section2
+    {
+        position: relative;
+        overflow-x: hidden;
+    }
+ 
+    .section2 {
+    margin: -23% 0 0;
+}
 
 }
 
 @media (max-width: 425px) {
     .section2 {
-        margin: -33% 0 0;
+        margin: -17% 0 0;
     }
+       .section1 {
+    height: 52px;
+}
+    .section1 .wave {
+    background-size: cover;
+    height: 52px;
+        animation: wave 5s linear infinite;
+}
 }
 @media (max-width: 375px) {
     .section2 {
