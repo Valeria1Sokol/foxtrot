@@ -840,14 +840,14 @@ footer .footerBox:last-of-type p {
     }
 
     .dropbtn {
-        font-size: 3vw;
+        font-size: 5vw;
         margin: 0 0 2vw;
         width: auto;
         padding: 3vw 0 0;
     }
 
     .nav-pills {
-        padding: 4vw 0 7vw;
+        padding: 5vw 0 9vw;
         border-bottom: 0.2vw solid #EC008C;
             display: flex;
     flex-direction: column;
@@ -885,6 +885,8 @@ footer .footerBox:last-of-type p {
 
     .p {
         line-height: 1.4;
+        font-size: 3vw;
+        font-family: 'GOTHAMROUNDED-BOOK';
     }
 
 }
