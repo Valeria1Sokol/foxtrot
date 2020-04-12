@@ -45,6 +45,7 @@ input {
 
 body {
     font-family: 'Helvetica', sans-serif;
+    overflow-x: hidden;
 }
 
 .container {
