@@ -73,6 +73,7 @@ body {
     height: 37vw;
     background-color: #D8D6D6;
     margin: -6.4vw 0 5.8vw;
+    position: relative;
 }
 
 .pinkText {
