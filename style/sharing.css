@@ -72,7 +72,8 @@ body {
     align-items: center;
 }
 
-.darkBtn {
+
+.section1 .darkBtn {
     width: 16vw;
     font-size: 0.9vw;
     border-radius: 3vw;
@@ -84,7 +85,7 @@ body {
     background-image: url(../img/plus.png);
 }
 
-.darkBtn:hover  {
+.section1 .darkBtn:hover  {
     background-image: url(../img/plusHover.png);
 }
 
