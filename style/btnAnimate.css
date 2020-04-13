@@ -163,3 +163,49 @@
     background-size: 12%;
     background-position: 90%;
 }
+
+@media all and (max-width:768px) {
+    .darkBtn:hover::before {
+        opacity: 1;
+    }
+
+    .darkBtn:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .darkBtn:hover::after {
+        opacity: 0;
+    }
+
+    .whiteBtn:hover::before {
+        opacity: 1;
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+    .whiteBtn
+    {
+        border: 1px solid black;
+    }
+
+    .whiteBtn:hover {
+        color: black;
+        background-color: transparent;
+    }
+
+    .whiteBtn:hover::after {
+        opacity: 0;
+    }
+
+    .whiteBtn span {
+        height: 101%;
+    }
+    .darkBtn::after, .darkBtn::before
+    {
+        display: none;
+    }
+     .whiteBtn::after, .whiteBtn::before
+    {
+        display: none;
+    }
+}

@@ -98,7 +98,7 @@ body {
 
 .section2 .whiteBtn span {
     width: 26vw;
-    height: 6.6vw;
+    height: 7vw;
     font-size: 1.9vw;
     background-size: 9%;
 }
@@ -431,6 +431,9 @@ body {
 }
 
 @media all and (max-width:768px) {
+    .section2 .whiteBtn span {
+    height: 101%;
+}
     .section4 {
         padding: 2% 0 0;
     }
@@ -447,7 +450,7 @@ body {
     .section5 .boxCont .box .darkBtn {
         font-size: 1.15vw;
         width: 18.7vw;
-        padding: 0.2vw 5.3vw 0 2.8vw;
+        padding: 0vw 5.3vw 0.2vw 2.8vw;
     }
 
     .section6 {
