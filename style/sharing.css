@@ -74,33 +74,20 @@ body {
 
 .darkBtn {
     width: 16vw;
-    height: auto;
     font-size: 0.9vw;
     border-radius: 3vw;
-    padding: 1vw 1.8vw 1vw 2vw;
+    padding: 1vw 3.8vw 1vw 2vw;
     letter-spacing: 0.05vw;
+    background-position: 91%;
+    background-size: 12%;
+    background-repeat: no-repeat;
+    background-image: url(../img/plus.png);
 }
 
-.darkBtn:hover p {
-    background-color: black;
-    color: white;
-    text-decoration: none;
+.darkBtn:hover  {
+    background-image: url(../img/plusHover.png);
 }
 
-.allBox .darkBtn p {
-    width: 1.8vw;
-    height: 1.8vw;
-    border-radius: 50%;
-    background-color: white;
-    color: black;
-    font-size: 1.7vw;
-    text-align: center;
-    font-family: 'GOTHAMROUNDED-BOOK';
-    margin: 0 0 0 2.6vw;
-    padding: 0;
-    text-decoration: none;
-    line-height: initial;
-}
 
 .allBox a:hover {
     text-decoration: none;
@@ -114,6 +101,8 @@ body {
     align-items: center;
     background-color: #F5F5F4;
     padding: 9.5vw 18.4vw 10vw;
+    position: relative;
+    overflow-x: hidden;
 }
 
 .section3 .h1 {
@@ -240,6 +229,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 0 3vw 9.4vw;
+    overflow-x: hidden;
 }
 
 .section5 .darkBtn {
@@ -251,6 +241,10 @@ body {
     background-position: 90%;
     font-size: 1.4vw;
     padding: 1vw 2vw 1vw 0px;
+}
+.section5 .darkBtn:hover
+{
+    background-image: url(../img/arrowPlan.png);
 }
 
 .slider {
@@ -296,15 +290,16 @@ body {
     align-items: center;
     top: 46%;
     right: 97%;
+    background-image: url(../img/sliderArrow.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center;
 }
 
 .row {
     margin: 0;
 }
 
-.carousel-control.right:before {
-    content: "\e080";
-}
 
 .multi-item-carousel .carousel-inner > .item {
     -webkit-transition: 500ms ease-in-out left;
@@ -360,12 +355,7 @@ body {
     .darkBtn {
         width: 20vw;
         font-size: 1.3vw;
-    }
-
-    .allBox .darkBtn p {
-        width: 2.2vw;
-        height: 2.2vw;
-        font-size: 2.2vw;
+        line-height: 0;
     }
 
     .section3 {
@@ -411,19 +401,22 @@ body {
     .planBox .num {
         font-size: 2vw;
     }
-     .carousel-control.right:before {
+
+    .carousel-control.right:before {
         content: "\e080";
         position: relative;
         top: 0vw;
     }
 
-    .section5, .section3, .section4
-    {
+    .section5,
+    .section3,
+    .section4 {
         position: relative;
         overflow-x: hidden;
     }
+
     .planBox a {
-    width: 65%;
-    font-size: 2.25vw;
-}
+        width: 65%;
+        font-size: 2.25vw;
+    }
 }
