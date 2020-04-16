@@ -38,8 +38,9 @@ input {
     outline: none;
     border: none;
 }
-.nav__container, .burger
-{
+
+.nav__container,
+.burger {
     display: none;
 }
 
@@ -55,7 +56,7 @@ body {
 }
 
 .h1 {
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-family: 'Gotham-Bold';
     letter-spacing: 0.8vw;
     text-transform: uppercase;
@@ -64,7 +65,7 @@ body {
 }
 
 .h2 {
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-family: 'RunWild-Demo-2';
     text-transform: uppercase;
     letter-spacing: 0.8vw;
@@ -74,7 +75,7 @@ body {
 }
 
 .p {
-    font-size: 1.6vw;
+    font-size: 1.2vw;
     font-weight: 200;
 }
 
@@ -107,6 +108,7 @@ header .logo {
     padding-top: 2%;
     position: relative;
     z-index: 1050;
+    margin: 0 0 0 2vw;
 }
 
 .subMenu {
@@ -124,7 +126,7 @@ header .logo {
     justify-content: flex-start;
     align-items: flex-start;
     width: 18.9vw;
-    margin: 0 0 7vw;
+    margin: 0 0 5vw;
 }
 
 .subBox .subIcon {
@@ -140,7 +142,7 @@ header .logo {
 }
 
 .subBox h1 {
-    font-size: 1.4vw;
+    font-size: 1.1vw;
     font-family: 'Gotham-Bold';
     text-transform: uppercase;
 }
@@ -149,7 +151,7 @@ header .logo {
     font-family: 'Helvetica', sans-serif;
     color: black;
     text-align: left;
-    font-size: 1.05vw;
+    font-size: 0.9vw;
     text-transform: none;
     margin-top: 2vw;
 }
@@ -177,6 +179,14 @@ header .logo {
     align-items: center;
 }
 
+.navLeft {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .home {
     width: 3.4vw;
 }
@@ -186,7 +196,7 @@ header .logo {
 }
 
 .what {
-    width: 9vw;
+    width: 8vw;
 }
 
 .case {
@@ -209,7 +219,7 @@ header .logo {
 .dropbtn {
     font-family: 'AvenirMedium';
     text-transform: uppercase;
-    font-size: 1.05vw;
+    font-size: 0.8vw;
     color: black;
     margin: 0;
     display: flex;
@@ -247,7 +257,7 @@ header .logo {
     border-bottom: 0.2vw solid #EC008C;
     display: flex;
     flex-direction: column;
-    padding: 6vw 19vw;
+    padding: 4vw 21vw 4vw 16vw;
     align-items: flex-end;
 }
 
@@ -357,7 +367,7 @@ footer {
 
 .footerBox h1 {
     font-size: 1.5vw;
-    font-family: 'GothamRoundedMedium_21022';
+    font-family: 'Gotham-Bold';
     text-transform: uppercase;
     margin: 0 0 2vw;
 }
@@ -436,9 +446,9 @@ footer .inputBox {
 
 footer .inputBox a {
     position: absolute;
-    right: 1%;
-    width: 11vw;
-    height: 3.3vw;
+    right: 2%;
+    width: 10vw;
+    height: 3vw;
 }
 
 .footerBox .socBox .blackBox {
@@ -476,6 +486,7 @@ footer .footerBox:last-of-type p {
     text-align: right;
     width: 100%;
     font-size: 1vw;
+    font-family: 'Gotham_Rounded_Bold';
 }
 
 .footerArrow {
@@ -696,7 +707,7 @@ footer .footerBox:last-of-type p {
         width: 18.7vw;
         height: 4.5vw;
     }
- 
+
 
     .whiteBtn {
         font-size: 1.45vw;
@@ -706,10 +717,9 @@ footer .footerBox:last-of-type p {
 
     /* Colours */
 
-.nav__container
-{
-    display: block;
-}
+    .nav__container {
+        display: block;
+    }
 
     .nav__container {
         position: absolute;
@@ -845,8 +855,8 @@ footer .footerBox:last-of-type p {
     .nav-pills {
         padding: 5vw 0 9vw;
         border-bottom: 0.2vw solid #EC008C;
-            display: flex;
-    flex-direction: column;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }

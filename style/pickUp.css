@@ -6,7 +6,7 @@
     align-items: center;
     border-top: 0.22vw solid #FF40B1;
     border-bottom: 0.22vw solid #FF40B1;
-    padding: 9.6% 18.4% 12.3%;
+    padding: 6.6% 18.4% 12.3%;
 }
 
 .allPlans {
@@ -15,12 +15,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 13.5% 0 14%;
+    padding: 13.5% 0 7%;
 }
 
 .planBox {
-    width: 44%;
-    height: 29vw;
+    width: 41%;
+    height: 26vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -42,9 +42,8 @@
     padding: 3.8% 0;
 }
 
-.planBox .h1,
-.planBox .h2 {
-    font-size: 2.15vw;
+.planBox .h1 {
+    font-size: 1.9vw;
     letter-spacing: 0.6vw;
     text-align: center;
 }
@@ -218,7 +217,7 @@ tbody.collapse.show {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 54%;
+    width: 47%;
     position: relative;
 }
 
@@ -237,10 +236,11 @@ tbody.collapse.show {
 .modalBox .planBox .h1,
 .planBox .h2 {
     font-size: 2.9vw;
+    text-align: center;
 }
 
 .modalBox .planBox .num {
-    font-size: 2.6vw;
+    font-size: 2vw;
     width: 47%;
     height: 31%;
     padding: 5% 0;
@@ -251,7 +251,7 @@ tbody.collapse.show {
 .priceBox {
     width: 85%;
     background-color: rgba(255, 255, 255, 0.5);
-    font-size: 10vw;
+    font-size: 8vw;
     font-family: 'Gotham-Bold';
     display: flex;
     justify-content: center;
@@ -264,7 +264,7 @@ tbody.collapse.show {
     border-bottom: 0.22vw solid #FF40B1;
     text-align: center;
     width: 66%;
-    padding: 5vw 0;
+    padding: 3vw 0;
 }
 
 .modalBox .btnCont {
@@ -277,7 +277,7 @@ tbody.collapse.show {
 }
 
 .modalBox .planBox a {
-    width: 39%;
+    width: 33%;
     font-size: 1.4vw;
     font-family: 'Gotham_Rounded_Bold';
     border-bottom: none;
@@ -288,10 +288,9 @@ tbody.collapse.show {
 }
 
 .modalBox .darkBtn {
-    height: 5.2vw;
+    height: 4.2vw;
     width: 100%;
-
-    font-size: 1.4vw;
+    font-size: 1.1vw;
 }
 
 .modalBox .btnCont .btnCircle {
@@ -373,9 +372,9 @@ tbody.collapse.show {
 }
 
 .modalBox .tittleS {
-    font-size: 1.6vw;
+    font-size: 1.2vw;
     text-align: center;
-    padding: 3.5vw 0 4vw;
+    padding: 2.5vw 0 3vw;
 }
 
 .modalBox .whiteCircle {
@@ -419,7 +418,7 @@ tbody.collapse.show {
 }
 
 .planBox .table p {
-    height: 7.2vw;
+    height: 6vw;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -438,7 +437,7 @@ tbody.collapse.show {
 
 .planBox .table .cmlRight p {
     padding: 0 16.4% 0 0;
-    font-size: 1.6vw;
+    font-size: 1.3vw;
     font-family: 'GothamHTF-Black';
     text-transform: uppercase;
     margin: 0 0 0 8%;
@@ -487,6 +486,7 @@ tbody.collapse.show {
     color: white;
     padding: 0;
     position: relative;
+    top: -0.3vw;
 }
 
 .p4 {
@@ -578,7 +578,7 @@ tbody.collapse.show {
     .card span::after {
         content: '+';
         position: relative;
-/*        top: 0.2vw;*/
+        /*        top: 0.2vw;*/
     }
 
     .containerBox {

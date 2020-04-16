@@ -15,8 +15,8 @@ header {
 }
 
 .pinkPoint {
-    width: 8.5vw;
-    height: 8.5vw;
+    width: 4.5vw;
+    height: 4.5vw;
     border-radius: 50%;
     background-color: #FF40B1;
     margin: 0 3vw 0 0;
@@ -25,7 +25,7 @@ header {
 .top {
     background-color: #C4EBF7;
     width: 100vw;
-    padding: 8.5% 0 6%;
+    padding: 3.5% 0 3%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,7 +59,7 @@ header {
 
 .section2 .h1,
 .section2 .h2 {
-    font-size: 2.45vw;
+    font-size: 2vw;
 }
 
 .section2 {
@@ -86,8 +86,7 @@ header {
 }
 
 .section2 .main img {
-    width: 47.5%;
-    height: 23.8vw;
+    width: 41.5%;
     margin-top: 8.8%;
 }
 
@@ -99,7 +98,7 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 7.6%;
+    margin-top: 3.6%;
 }
 
 .section2 .box:nth-of-type(2n+1) {
@@ -107,8 +106,9 @@ header {
 }
 
 .section2 .box:nth-of-type(2n+1) .text {
-    width: 85%;
-    margin-left: 3vw;
+    width: 77%;
+    margin-left: 8vw;
+
 }
 
 .section2 .box:nth-of-type(2n+1) .img {
@@ -121,10 +121,10 @@ header {
 }
 
 .section2 .box .text {
-    width: 85%;
+    width: 75%;
     display: flex;
     flex-direction: column;
-    padding: 20% 0 0;
+    padding: 17% 0 0;
 }
 
 .section2 .p {
@@ -135,7 +135,7 @@ header {
 
 .section2 .box .img {
     width: 55%;
-    margin: 4.8vw 0 0;
+    margin: 1.8vw 0 0;
 }
 
 .section2 .box .img img {
@@ -156,24 +156,24 @@ header {
     align-items: center;
     background-color: #FFFF00;
     text-align: center;
-    padding: 10.5vw 0 10vw;
-    margin-top: 6vw;
+    padding: 5.5vw 0 7vw;
+    margin-top: 5vw;
 }
 
 .section3 .start {
-    width: 80%;
+    width: 70%;
     background-color: white;
     border-radius: 7vw;
-    padding: 8.8% 0;
+    padding: 6.8% 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 6.2vw;
+    margin-top: 4.2vw;
 }
 
 .section3 .start p {
-    font-size: 2.9vw;
+    font-size: 2.1vw;
     color: black;
     font-family: 'Gotham-Bold';
     margin: 0 0 6%;
@@ -181,12 +181,12 @@ header {
 }
 
 .whiteBtn span {
-    font-size: 1.9vw;
+    font-size: 1.5vw;
 }
 
 .whiteBtn {
-    height: 6vw;
-    width: 27vw;
+    height: 5vw;
+    width: 23vw;
 }
 
 
@@ -197,6 +197,10 @@ header {
 
     .section2 .box .text {
         padding: 20% 0 10%;
+    }
+
+    .top {
+        padding: 7.5% 0 5%;
     }
 }
 

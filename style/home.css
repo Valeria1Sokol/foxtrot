@@ -17,7 +17,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #FFFF00;
-    padding: 7.2% 6.8% 9% 17.5%;
+    padding: 2.2% 6.8% 9% 15.5%;
 }
 
 .subMenuBox {
@@ -34,7 +34,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 3.4vw;
-    padding: 0 13% 0 0;
+    padding: 0 15% 0 0;
 }
 
 .section1 .img {
@@ -42,7 +42,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    margin: 0 0 0 4vw;
+    margin: 0 0 0 8vw;
     position: relative;
 }
 
@@ -52,7 +52,7 @@ body {
 }
 
 .section1 .letter {
-    width: 10.5vw;
+    width: 8.5vw;
 }
 
 .section3,
@@ -77,7 +77,7 @@ body {
 }
 
 .pinkText {
-    font-size: 3vw;
+    font-size: 2.5vw;
     color: #EC008C;
     font-family: 'Gotham-Bold';
     margin: 9% 0 5%;
@@ -85,21 +85,21 @@ body {
 }
 
 .section2 .darkBtn {
-    width: 21.1vw;
-    height: 5vw;
-    font-size: 1.4vw;
+    width: 18vw;
+    height: 4.4vw;
+    font-size: 1.1vw;
 }
 
 .section2 .whiteBtn {
-    width: 26vw;
-    height: 6.6vw;
+    width: 23vw;
+    height: 6vw;
     margin: 0 0 33%;
 }
 
 .section2 .whiteBtn span {
-    width: 26vw;
-    height: 7vw;
-    font-size: 1.9vw;
+    width: 23vw;
+    height: 6.1vw;
+    font-size: 1.5vw;
     background-size: 9%;
 }
 
@@ -142,7 +142,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #F1DCEB;
-    padding: 7% 0 0;
+    padding: 3% 0 0;
 }
 
 .section4 .textBox {
@@ -152,20 +152,20 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    padding: 6% 14% 0 0;
+    padding: 5% 18% 0 0;
     background: rgb(241, 220, 235);
     background: linear-gradient(180deg, rgba(241, 220, 235, 1) 87%, rgba(255, 255, 255, 1) 87%);
     position: relative;
 }
 
 .section4 .textBox .ballon {
-    width: 57%;
-    margin: 0 7.5% 0 0;
+    width: 47%;
+    margin: 0 13.5% 0 0;
 }
 
 .section4 .whiteBtn {
-    width: 19.2vw;
-    font-size: 1.36vw;
+    width: 16.2vw;
+    font-size: 1.2vw;
     background-size: 10%;
 }
 
@@ -176,7 +176,7 @@ body {
 
 .section4 .btnCont img {
     margin: 0vw;
-    right: 23%;
+    right: 38%;
 }
 
 .section4 .h1 {
@@ -211,12 +211,12 @@ body {
 }
 
 .section5 .boxCont .box {
-    width: 19vw;
+    width: 14vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 4.7% 0 0;
+    margin: 0 8% 0 0;
 }
 
 .section5 .boxCont .box:last-of-type {
@@ -225,7 +225,7 @@ body {
 
 .section5 .boxCont .box .tittle {
     font-family: 'GothamHTF-Black';
-    font-size: 1.6vw;
+    font-size: 1.25vw;
     text-transform: uppercase;
     margin: 16% 0;
 }
@@ -236,8 +236,8 @@ body {
 
 .section5 .boxCont .box .darkBtn {
     text-align: left;
-    font-size: 1.05vw;
-    padding: 0.2vw 3.3vw 0 2.8vw;
+    font-size: 0.8vw;
+    padding: 0vw 3.3vw 0 1.8vw;
     background-image: url(../img/arrowBtn.png);
     background-repeat: no-repeat;
     background-size: 10%;
@@ -255,7 +255,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #C4EBF7;
-    padding: 10% 17.5% 16%;
+    padding: 6% 15.5% 6%;
     position: relative;
 }
 
@@ -270,14 +270,14 @@ body {
 }
 
 .section6 .ballon {
-    width: 42%;
-    margin: 0 7.8% 0 0;
+    width: 39%;
+    margin: 0 11.8% 0 0;
 }
 
 .section6 .darkBtn {
-    width: 21vw;
-    height: 4.9vw;
-    font-size: 1.36vw;
+    width: 18vw;
+    height: 4.4vw;
+    font-size: 1.2vw;
 }
 
 .section6 .btnCont {
@@ -287,7 +287,7 @@ body {
 
 .section6 .btnCont img {
     margin: 0vw;
-    right: 20%;
+    right: 32%;
 }
 
 .section7 {
@@ -297,14 +297,14 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #FFFF86;
-    padding: 0 0 7.2% 17.5%;
+    padding: 0 0 3.2% 14.5%;
     position: relative;
 }
 
 .section7 .h1 {
     display: flex;
     flex-direction: row;
-    margin: 0 0 16%;
+    margin: 0 0 13%;
 }
 
 .section7 .h1 span {
@@ -327,18 +327,17 @@ body {
 }
 
 .section7 .textBox .text {
-    padding: 10vw 0 0;
+    padding: 8vw 0 0;
 }
 
 .section7 .ballon {
-    width: 58%;
-    margin: -11% 0 0 5%;
+    width: 45%;
+    margin: -6% 0 0 13%;
 }
 
 .section7 .darkBtn {
-    width: 18.2vw;
-    height: 4.9vw;
-    font-size: 1.36vw;
+    width: 16.2vw;
+    font-size: 1.2vw;
 }
 
 .section7 .btnCont {
@@ -404,7 +403,7 @@ body {
 }
 
 .section9 h1 {
-    font-size: 2.2vw;
+    font-size: 1.9vw;
     font-family: 'GothamRoundedMedium_21022';
     text-transform: uppercase;
     margin: 0 0 2vw;
@@ -416,24 +415,26 @@ body {
     height: 100%;
     font-size: 1.2vw;
     font-family: 'Gotham-Bold';
-    padding: 0 6.3vw;
-    border-radius: 2vw;
+    padding: 0;
+    border-radius: 3vw;
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 0.17vw;
+    box-shadow: 7px 5px 6px rgba(0, 0, 0, 0.2);
 }
 
 .section9 .inputBox a {
     position: absolute;
     right: 3%;
-    width: 19vw;
+    width: 17vw;
     height: 4.3vw;
 }
 
 @media all and (max-width:768px) {
     .section2 .whiteBtn span {
-    height: 101%;
-}
+        height: 101%;
+    }
+
     .section4 {
         padding: 2% 0 0;
     }
@@ -485,9 +486,13 @@ body {
         height: 4.3vw;
     }
 
-  
+    .section1 .img {
+        margin: 0px 0 0 4vw;
+    }
 
-   
+
+
+
 }
 
 @media all and (max-width:425px) {
@@ -496,17 +501,24 @@ body {
         position: relative;
         overflow-x: hidden;
     }
-      .section3 .wave, .section8 .wave {
+
+    .section3 .wave,
+    .section8 .wave {
         width: 100%;
         height: 52px;
         background-size: cover;
-          animation: wave 5s linear infinite;
+        animation: wave 5s linear infinite;
     }
-     .section3, .section8 {
+
+    .section3,
+    .section8 {
         height: 52px;
     }
-      .section4 ,  .section5,  .section6,  .section7
-    {
+
+    .section4,
+    .section5,
+    .section6,
+    .section7 {
         position: relative;
         overflow-x: hidden;
     }
@@ -528,7 +540,7 @@ body {
     .section2 .whiteBtn span {
         font-size: 2vw;
     }
-  
+
 
     .section4 .textBox .ballon {
         width: 45%;

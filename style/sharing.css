@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-color: #C2E8F4;
-    padding: 8vw 18.4vw;
+    padding: 6vw 18.4vw;
 }
 
 .section2 {
@@ -178,8 +178,8 @@ body {
 }
 
 .planBox {
-    width: 44%;
-    height: 29vw;
+       width: 40%;
+    height: 24vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -189,7 +189,7 @@ body {
 }
 
 .planBox .num {
-    font-size: 1.83vw;
+    font-size: 1.5vw;
     font-family: 'Gotham-Bold';
     width: 51%;
     height: 18%;
@@ -202,7 +202,7 @@ body {
 
 .planBox .h1,
 .planBox .h2 {
-    font-size: 2.15vw;
+    font-size: 1.7vw;
     letter-spacing: 0.6vw;
     text-align: center;
 }
@@ -240,7 +240,7 @@ body {
     background-repeat: no-repeat;
     background-size: 6%;
     background-position: 90%;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     padding: 1vw 2vw 1vw 0px;
 }
 .section5 .darkBtn:hover
@@ -364,7 +364,6 @@ body {
     }
 
     .carousel-control.right:before {
-        content: "\e080";
         position: relative;
         top: -0.2vw;
         font-size: 2.1vw;
@@ -404,7 +403,6 @@ body {
     }
 
     .carousel-control.right:before {
-        content: "\e080";
         position: relative;
         top: 0vw;
     }
