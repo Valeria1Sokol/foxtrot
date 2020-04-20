@@ -223,7 +223,7 @@ tbody.collapse.show {
 
 .modalBox .planBox {
     width: 100%;
-    height: fit-content;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -231,6 +231,10 @@ tbody.collapse.show {
     padding: 0;
     border-radius: 5vw;
     margin: 0 0 11%;
+}
+#planBox
+{
+    height: 57vw;
 }
 
 .modalBox .planBox .h1,
@@ -242,7 +246,8 @@ tbody.collapse.show {
 .modalBox .planBox .num {
     font-size: 2vw;
     width: 47%;
-    height: 31%;
+/*    height: 31%;*/
+        height: 14%;
     padding: 5% 0;
     margin: 0 0 5vw;
 }
