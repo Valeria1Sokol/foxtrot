@@ -15,8 +15,8 @@ header {
 }
 
 .pinkPoint {
-    width: 4.5vw;
-    height: 4.5vw;
+    width: 3.2vw;
+    height: 3.2vw;
     border-radius: 50%;
     background-color: #FF40B1;
     margin: 0 3vw 0 0;
@@ -25,7 +25,7 @@ header {
 .top {
     background-color: #C4EBF7;
     width: 100vw;
-    padding: 3.5% 0 3%;
+    padding: 12.1% 0 8%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,6 +39,7 @@ header {
     align-items: center;
     position: relative;
     width: fit-content;
+    font-size: 2.92vw;
 }
 
 .section1 {
@@ -57,10 +58,6 @@ header {
     animation: wave 3s linear infinite;
 }
 
-.section2 .h1,
-.section2 .h2 {
-    font-size: 2vw;
-}
 
 .section2 {
     width: 100%;
@@ -161,10 +158,10 @@ header {
 }
 
 .section3 .start {
-    width: 70%;
+    width: 82.6%;
     background-color: white;
-    border-radius: 7vw;
-    padding: 6.8% 0;
+    border-radius: 14vw;
+    padding: 5.7% 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -173,20 +170,21 @@ header {
 }
 
 .section3 .start p {
-    font-size: 2.1vw;
+    font-size: 2.3vw;
     color: black;
     font-family: 'Gotham-Bold';
-    margin: 0 0 6%;
+    margin: 0 0 5%;
     letter-spacing: 0.2vw;
 }
 
 .whiteBtn span {
-    font-size: 1.5vw;
+    font-size: 1.9vw;
+    background-size: 7%;
 }
 
 .whiteBtn {
-    height: 5vw;
-    width: 23vw;
+    height: 6.5vw;
+    width: 25.8vw;
 }
 
 
@@ -196,12 +194,41 @@ header {
     }
 
     .section2 .box .text {
-        padding: 20% 0 10%;
+        padding: 12% 0 10%;
+        width: 100%;
+    }
+
+    .section2 .p {
+        width: 80%;
     }
 
     .top {
         padding: 7.5% 0 5%;
     }
+
+    .section2 {
+        padding: 0 6%;
+    }
+
+    .section2 .main img {
+        margin-top: 15.8%;
+    }
+
+    .box .rel {
+        height: 45vw;
+    }
+
+    .section2 .box {
+        padding: 0 0 0 2vw;
+    }
+
+    .section2 .box:nth-of-type(2n+1) .text {
+        width: 100%;
+        margin-left: 1vw;
+    }
+    .section2 .box:nth-of-type(2n+1) .p {
+    width: 80%;
+}
 }
 
 @media all and (max-width:425px) {

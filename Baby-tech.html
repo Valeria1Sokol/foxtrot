@@ -20,37 +20,38 @@
             padding-top: 0;
         }
 
+        @media all and (max-width:768px) {
+            .section2 .box .text {
+                padding: 12% 0 10%;
+            }
+        }
+
     </style>
 </head>
 
 <body>
     <header>
-       <div class="navLeft">
-        <a href="index.html"><img class='logo' src='img/logo-foxtrot.png'></a>
-        <div class="navbar">
-            <div class="dropdown">
-                <a class="dropbtn home" href='index.html'>home</a>
-                <img src="img/menuArrow.png">
-            </div>
-            <div class="dropdown">
-                <a class="dropbtn PRICING">PRICING</a>
-                <img src="img/menuArrow.png">
-            </div>
-            <div class="dropdown">
-                <a class="dropbtn what" href="whatTheFox.html">what the fox</a>
-                <img src="img/menuArrow.png">
-            </div>
-            <div class="dropdown">
-                <a class="dropbtn case" data-toggle="modal" data-target="#exampleModal">use cases</a>
-                <img src="img/menuArrow.png">
-            </div>
-            <div class="dropdown">
-                <a class="dropbtn resources">RESOURCES</a>
-                <img src="img/menuArrow.png">
+        <div class="navLeft">
+            <a href="index.html"><img class='logo' src='img/logo-foxtrot.png'></a>
+            <div class="navbar">
+                <div class="dropdown">
+                    <a class="dropbtn" href='index.html'>home</a>
+                </div>
+                <div class="dropdown">
+                    <a class="dropbtn">PRICING</a>
+                </div>
+                <div class="dropdown">
+                    <a class="dropbtn" href="whatTheFox.html">what the fox</a>
+                </div>
+                <div class="dropdown">
+                    <a class="dropbtn" data-toggle="modal" data-target="#exampleModal">use cases</a>
+                </div>
+                <div class="dropdown">
+                    <a class="dropbtn">RESOURCES</a>
+                </div>
             </div>
         </div>
-        </div>
-         <div class="nav__container">
+        <div class="nav__container">
             <nav class="nav-main">
                 <ul class="nav nav-pills">
                     <li>
@@ -310,7 +311,7 @@
         AOS.init();
 
     </script>
-     <script src="script/menu.js"></script>
+    <script src="script/menu.js"></script>
 </body>
 
 </html>

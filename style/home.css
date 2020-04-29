@@ -26,6 +26,7 @@ body {
 
 .section1 .p {
     margin-top: 2.1vw;
+    width: 72%;
 }
 
 .section1 .inputBox {
@@ -34,7 +35,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 3.4vw;
-    padding: 0 15% 0 0;
+    padding: 0 30% 0 0;
 }
 
 .section1 .img {
@@ -47,12 +48,12 @@ body {
 }
 
 .section1 .secImg {
-    width: 25vw;
+    width: 24.7vw;
     margin: 0 6vw 0 0;
 }
 
 .section1 .letter {
-    width: 8.5vw;
+    width: 6.5vw;
 }
 
 .section3,
@@ -69,38 +70,38 @@ body {
 }
 
 .section2 .video {
-    width: 67%;
-    height: 37vw;
+    width: 61.3%;
+    height: 32.7vw;
     background-color: #D8D6D6;
-    margin: -6.4vw 0 5.8vw;
+    margin: -6.4vw 0 4vw;
     position: relative;
 }
 
 .pinkText {
-    font-size: 2.5vw;
+    font-size: 2.3vw;
     color: #EC008C;
     font-family: 'Gotham-Bold';
-    margin: 9% 0 5%;
+    margin: 7% 0 5%;
     letter-spacing: 0.8vw;
 }
 
 .section2 .darkBtn {
-    width: 18vw;
-    height: 4.4vw;
-    font-size: 1.1vw;
+    width: 14.3vw;
+    height: 3.8vw;
+    font-size: 1vw;
 }
 
 .section2 .whiteBtn {
-    width: 23vw;
-    height: 6vw;
+    width: 17.7vw;
+    height: 4.4vw;
     margin: 0 0 33%;
 }
 
 .section2 .whiteBtn span {
-    width: 23vw;
-    height: 6.1vw;
-    font-size: 1.5vw;
-    background-size: 9%;
+    width: 17.7vw;
+    height: 4.4vw;
+    font-size: 1.25vw;
+    padding: 0.3vw 2vw 0 0;
 }
 
 .btnCont {
@@ -114,8 +115,8 @@ body {
 
 .btnCont img {
     position: absolute;
-    width: 2vw;
-    margin: 1vw 0 0 13vw;
+    width: 1.5vw;
+    margin: 0 0 0 10vw;
 }
 
 .section3 {
@@ -152,21 +153,26 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    padding: 5% 18% 0 0;
+    padding: 5% 18% 8.5% 0;
     background: rgb(241, 220, 235);
-    background: linear-gradient(180deg, rgba(241, 220, 235, 1) 87%, rgba(255, 255, 255, 1) 87%);
+    /*    background: linear-gradient(180deg, rgba(241, 220, 235, 1) 87%, rgba(255, 255, 255, 1) 87%);*/
     position: relative;
 }
 
 .section4 .textBox .ballon {
-    width: 47%;
+    width: 51.2%;
     margin: 0 13.5% 0 0;
 }
 
 .section4 .whiteBtn {
-    width: 16.2vw;
+    width: 17vw;
+    height: 4.25vw;
+
     font-size: 1.2vw;
-    background-size: 10%;
+}
+
+.section4 .whiteBtn span {
+    font-size: 1.2vw;
 }
 
 .section4 .btnCont {
@@ -176,7 +182,7 @@ body {
 
 .section4 .btnCont img {
     margin: 0vw;
-    right: 38%;
+    right: 21%;
 }
 
 .section4 .h1 {
@@ -188,7 +194,7 @@ body {
 }
 
 .section4 .textBox .text {
-    padding: 11.5% 0 0;
+    padding: 11.5% 3% 0 0;
 }
 
 .section5 {
@@ -197,7 +203,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 8% 0 11.3%;
+    padding: 7% 0 11%;
 }
 
 .section5 .boxCont {
@@ -206,7 +212,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 9% 0 0;
+    padding: 5% 0 0;
     position: relative;
 }
 
@@ -225,7 +231,7 @@ body {
 
 .section5 .boxCont .box .tittle {
     font-family: 'GothamHTF-Black';
-    font-size: 1.25vw;
+    font-size: 1.3vw;
     text-transform: uppercase;
     margin: 16% 0;
 }
@@ -235,13 +241,14 @@ body {
 }
 
 .section5 .boxCont .box .darkBtn {
+    width: 15.4vw;
     text-align: left;
-    font-size: 0.8vw;
+    font-size: 0.84vw;
     padding: 0vw 3.3vw 0 1.8vw;
     background-image: url(../img/arrowBtn.png);
     background-repeat: no-repeat;
-    background-size: 10%;
-    background-position: 90%;
+    background-size: 9%;
+    background-position: 87%;
 }
 
 .section5 .h1 {
@@ -255,7 +262,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #C4EBF7;
-    padding: 6% 15.5% 6%;
+    padding: 6% 15.5% 14%;
     position: relative;
 }
 
@@ -270,14 +277,19 @@ body {
 }
 
 .section6 .ballon {
-    width: 39%;
-    margin: 0 11.8% 0 0;
+    width: 29%;
+    margin: 0 16% 0 0;
+}
+
+.section6 .p {
+    width: 69%;
+    margin-top: 6%;
 }
 
 .section6 .darkBtn {
-    width: 18vw;
-    height: 4.4vw;
-    font-size: 1.2vw;
+    width: 21.8vw;
+    height: 4.2vw;
+    font-size: 1.1vw;
 }
 
 .section6 .btnCont {
@@ -331,23 +343,24 @@ body {
 }
 
 .section7 .ballon {
-    width: 45%;
-    margin: -6% 0 0 13%;
+    width: 56%;
+    margin: -6% 0 0 12.3%;
 }
 
 .section7 .darkBtn {
-    width: 16.2vw;
-    font-size: 1.2vw;
+    width: 15.5vw;
+    height: 4.2vw;
+    font-size: 1.1vw;
 }
 
 .section7 .btnCont {
-    margin-top: 3.3vw;
+    margin-top: 5.3vw;
     justify-content: flex-start;
 }
 
 .section7 .btnCont img {
     margin: 0vw;
-    right: 20%;
+    right: 32%;
 }
 
 .section8 {
@@ -385,11 +398,11 @@ body {
 
 
 .section9 .inputBox .email {
-    width: 62.2vw;
-    height: 7.8vw;
+    width: 58.4vw;
+    height: 7.2vw;
     border: 1px solid #000000;
     border-radius: 4vw;
-    font-size: 1.65vw;
+    font-size: 1.6vw;
     font-family: 'GOTHAMROUNDED-BOOK';
     color: black;
     padding: 0 3vw;
@@ -403,7 +416,7 @@ body {
 }
 
 .section9 h1 {
-    font-size: 1.9vw;
+    text-align: center;
     font-family: 'GothamRoundedMedium_21022';
     text-transform: uppercase;
     margin: 0 0 2vw;
@@ -413,7 +426,7 @@ body {
 .section9 .inputBox .footerBtn {
     width: 100%;
     height: 100%;
-    font-size: 1.2vw;
+    font-size: 1.27vw;
     font-family: 'Gotham-Bold';
     padding: 0;
     border-radius: 3vw;
@@ -426,13 +439,14 @@ body {
 .section9 .inputBox a {
     position: absolute;
     right: 3%;
-    width: 17vw;
-    height: 4.3vw;
+    width: 18vw;
+    height: 3.8vw;
 }
 
 @media all and (max-width:768px) {
     .section2 .whiteBtn span {
         height: 101%;
+        width: 29.7vw;
     }
 
     .section4 {
@@ -459,7 +473,7 @@ body {
     }
 
     .section4 .textBox {
-        padding: 6% 8% 0 0;
+        padding: 6% 8% 6% 0;
     }
 
     .section4 .textBox .ballon {
@@ -490,8 +504,97 @@ body {
         margin: 0px 0 0 4vw;
     }
 
+    .section1 .p {
+        width: 88%;
+    }
 
+    .section1 .secImg {
+        width: 33.7vw;
+        margin: 0 2vw 0 0;
+    }
 
+    .section1 .letter {
+        width: 10.5vw;
+    }
+
+    .section2 .whiteBtn {
+        width: 29.7vw;
+        height: 6.4vw;
+        margin: 0 0 33%;
+    }
+
+    .section4 .textBox .text {
+        padding: 2.5% 3% 0 0;
+    }
+
+    .section6 .ballon {
+        width: 29%;
+        margin: 0 7% 0 0;
+    }
+
+    .section6 .p {
+        width: 87%;
+    }
+
+    .section6 .textBox {
+        padding: 0% 0 0;
+    }
+
+    .section6 .btnCont img {
+        margin: 0vw;
+        right: 52%;
+    }
+
+    .section7 .ballon {
+        width: 46%;
+        margin: -6% 0 0 6.3%;
+    }
+
+    .section7 .h1 {
+        margin: 0 0 8%;
+    }
+
+    .section7 .darkBtn {
+        font-size: 1.45vw;
+        width: 18.7vw;
+        height: 4.5vw;
+    }
+
+    .section7 .btnCont img {
+        right: 46%;
+    }
+
+    .section1 .inputBox {
+        padding: 0 0 0 0;
+    }
+
+    .section1 .whiteBtn,
+    .section2 .darkBtn {
+        height: 4.5vw;
+        width: 18.8vw;
+        font-size: 1.45vw;
+    }
+
+    .section4 .whiteBtn,
+    .section6 .darkBtn {
+        height: 4.5vw;
+        width: 18.8vw;
+        font-size: 1.45vw;
+    }
+
+    .whiteBtn span {
+        font-size: 1.45vw !important;
+    }
+
+    .btnCont img {
+        position: absolute;
+        width: 1.5vw;
+        margin: 0px 0 0 14vw;
+    }
+
+    .section4 .whiteBtn span {
+        padding: 0.3vw 2vw 0 0;
+    }
 
 }
 
@@ -508,6 +611,18 @@ body {
         height: 52px;
         background-size: cover;
         animation: wave 5s linear infinite;
+    }
+
+    .section1 .whiteBtn,
+    .section2 .darkBtn {
+        font-size: 2vw;
+        height: 6.3vw;
+        width: 24.7vw;
+    }
+
+    .whiteBtn span {
+        font-size: 2vw !important;
+        background-size: 7%;
     }
 
     .section3,
@@ -551,16 +666,13 @@ body {
     }
 
     .section4 .textBox {
-        padding: 6% 4% 0 0;
+        padding: 6% 4% 6% 0;
     }
 
     .section4 .textBox .ballon {
         margin: 0 4.5% 0 0;
     }
 
-    .section4 .textBox {
-        background: linear-gradient(180deg, rgba(241, 220, 235, 1) 92%, rgba(255, 255, 255, 1) 92%);
-    }
 
     .section4 .h1,
     .section4 .h2 {
@@ -570,6 +682,7 @@ body {
 
     .section4 .whiteBtn {
         width: 25vw;
+        height: 6.4vw;
     }
 
     .section5 .boxCont .box .darkBtn {
@@ -588,7 +701,11 @@ body {
 
     .btnCont img {
         width: 2.3vw;
-        height: 2vw;
+        height: 2.3vw;
+    }
+
+    .section7 .btnCont img {
+        right: 22%;
     }
 
     .section7 .ballon {
@@ -622,5 +739,10 @@ body {
     [data-aos][data-aos][data-aos-delay="700"].aos-animate,
     body[data-aos-delay="700"] [data-aos].aos-animate {
         transition-delay: .3s !important;
+    }
+
+    .section6 .btnCont img {
+        margin: 0vw;
+        right: 36%;
     }
 }

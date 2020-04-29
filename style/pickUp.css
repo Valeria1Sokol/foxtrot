@@ -6,7 +6,7 @@
     align-items: center;
     border-top: 0.22vw solid #FF40B1;
     border-bottom: 0.22vw solid #FF40B1;
-    padding: 6.6% 18.4% 12.3%;
+    padding: 6.6% 23.9% 12.3%;
 }
 
 .allPlans {
@@ -19,8 +19,8 @@
 }
 
 .planBox {
-    width: 41%;
-    height: 26vw;
+    width: 44%;
+    height: 24.1vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -31,9 +31,9 @@
 }
 
 .planBox .num {
-    font-size: 1.83vw;
+    font-size: 1.3vw;
     font-family: 'Gotham-Bold';
-    width: 51%;
+    width: 48%;
     height: 18%;
     border-radius: 0 0 50% 50% / 0 0 100% 100%;
     background-color: rgba(191, 191, 191, 0.4);
@@ -43,14 +43,14 @@
 }
 
 .planBox .h1 {
-    font-size: 1.9vw;
+    font-size: 1.7vw;
     letter-spacing: 0.6vw;
     text-align: center;
 }
 
 .planBox a {
     width: 47%;
-    font-size: 1.25vw;
+    font-size: 1.05vw;
     font-family: 'Gotham_Rounded_Bold';
     border-bottom: 1px solid black;
     display: flex;
@@ -65,7 +65,7 @@
 }
 
 #accordion {
-    width: 88.5%;
+    width: 100%;
     margin-top: 14%;
 }
 
@@ -142,6 +142,7 @@
     padding: 0 6.6% 6.6%;
     width: 91%;
     font-weight: 200;
+    line-height: 1.5;
 }
 
 .dropdown .dropbtn {
@@ -217,7 +218,7 @@ tbody.collapse.show {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 47%;
+    width: 44.2%;
     position: relative;
 }
 
@@ -232,31 +233,36 @@ tbody.collapse.show {
     border-radius: 5vw;
     margin: 0 0 11%;
 }
-#planBox
-{
+
+#planBox {
     height: 57vw;
+}
+
+.modal-content .h2 {
+    margin: 0 0 7vw;
 }
 
 .modalBox .planBox .h1,
 .planBox .h2 {
-    font-size: 2.9vw;
+    font-size: 2.1vw;
     text-align: center;
+    margin: 0;
 }
 
 .modalBox .planBox .num {
-    font-size: 2vw;
+    font-size: 2.6vw;
     width: 47%;
-/*    height: 31%;*/
-        height: 14%;
+    /*    height: 31%;*/
+    height: 14%;
     padding: 5% 0;
     margin: 0 0 5vw;
 }
 
 
 .priceBox {
-    width: 85%;
+    width: 68.5%;
     background-color: rgba(255, 255, 255, 0.5);
-    font-size: 8vw;
+    font-size: 6vw;
     font-family: 'Gotham-Bold';
     display: flex;
     justify-content: center;
@@ -282,7 +288,7 @@ tbody.collapse.show {
 }
 
 .modalBox .planBox a {
-    width: 33%;
+    width: 38%;
     font-size: 1.4vw;
     font-family: 'Gotham_Rounded_Bold';
     border-bottom: none;
@@ -295,14 +301,14 @@ tbody.collapse.show {
 .modalBox .darkBtn {
     height: 4.2vw;
     width: 100%;
-    font-size: 1.1vw;
+    font-size: 1.06vw;
 }
 
 .modalBox .btnCont .btnCircle {
     position: absolute;
     right: 21%;
-    width: 2vw;
-    height: 2vw;
+    width: 1.6vw;
+    height: 1.6vw;
     border-radius: 50%;
 }
 
@@ -377,7 +383,8 @@ tbody.collapse.show {
 }
 
 .modalBox .tittleS {
-    font-size: 1.2vw;
+    font-size: 1.6vw;
+    font-weight: lighter;
     text-align: center;
     padding: 2.5vw 0 3vw;
 }
@@ -441,11 +448,11 @@ tbody.collapse.show {
 }
 
 .planBox .table .cmlRight p {
-    padding: 0 16.4% 0 0;
-    font-size: 1.3vw;
+    padding: 0 3.4% 0 0;
+    font-size: 1.6vw;
     font-family: 'GothamHTF-Black';
     text-transform: uppercase;
-    margin: 0 0 0 8%;
+    margin: 0 0 0 4%;
 }
 
 .planBox .table .cmlLeft img {
@@ -473,8 +480,8 @@ tbody.collapse.show {
     background-color: black;
     position: absolute;
     color: white;
-    width: 5vw;
-    height: 5vw;
+    width: 4vw;
+    height: 4vw;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -486,17 +493,25 @@ tbody.collapse.show {
 }
 
 .close span {
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: 100;
     color: white;
     padding: 0;
     position: relative;
     top: -0.3vw;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 100;
 }
 
 .p4 {
     margin: 0 0 9%;
 }
+
+.modal-content .h1,
+.modal-content .h2 {
+    text-align: center;
+}
+
 
 .zeroThree {
     background-color: #E8C9DF !important;
@@ -504,7 +519,7 @@ tbody.collapse.show {
 
 .circleL {
     width: 1vw;
-    height: 0.76vw;
+    height: 1vw;
     border-radius: 50%;
     background-color: #FF40B1;
     position: relative;
@@ -516,10 +531,19 @@ tbody.collapse.show {
         padding: 9.6% 11% 12.3% 11%;
     }
 
+    .planBox .num {
+        font-size: 2.3vw;
+    }
+
     .planBox .h1,
     .planBox .h2 {
         font-size: 2.65vw;
     }
+
+    .modalBox .tittleS {
+        padding: 4.5vw 0 6vw;
+    }
+
 
     .planBox {
         height: 36vw;
@@ -583,7 +607,15 @@ tbody.collapse.show {
     .card span::after {
         content: '+';
         position: relative;
-        /*        top: 0.2vw;*/
+    }
+
+    .modalBox .whiteCircle,
+    .modalBox .whiteCircleReverce {
+        width: 14.6%;
+        height: 4.5vw;
+    }
+     #planBox {
+        height: auto;
     }
 
     .containerBox {
@@ -668,12 +700,12 @@ tbody.collapse.show {
     }
 
     .close {
-        width: 10vw;
-        height: 10vw;
+        width: 8vw;
+        height: 8vw;
     }
 
     .close span {
-        font-size: 8vw;
+        font-size: 6vw;
         top: -0.5vw;
     }
 

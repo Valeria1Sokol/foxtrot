@@ -56,26 +56,27 @@ body {
 }
 
 .h1 {
-    font-size: 2.5vw;
+    font-size: 2.3vw;
     font-family: 'Gotham-Bold';
     letter-spacing: 0.8vw;
     text-transform: uppercase;
-    line-height: 1.5;
+    line-height: 2;
     width: 100%;
 }
 
 .h2 {
-    font-size: 2.5vw;
+    font-size: 2.3vw;
     font-family: 'RunWild-Demo-2';
     text-transform: uppercase;
     letter-spacing: 0.8vw;
     font-weight: normal;
-    line-height: 1.5;
+    line-height: 2;
     width: 100%;
 }
 
 .p {
-    font-size: 1.2vw;
+    font-size: 1.15vw;
+    line-height: 1.5;
     font-weight: 200;
 }
 
@@ -98,7 +99,7 @@ header .logo {
 }
 
 .navbar {
-    width: 60%;
+    width: 54.4%;
     height: 100%;
     overflow: hidden;
     display: flex;
@@ -108,7 +109,7 @@ header .logo {
     padding-top: 2%;
     position: relative;
     z-index: 1050;
-    margin: 0 0 0 2vw;
+    margin: 0 0 0 4vw;
 }
 
 .subMenu {
@@ -130,7 +131,7 @@ header .logo {
 }
 
 .subBox .subIcon {
-    width: 2vw;
+    width: 1.7vw;
     margin: 0 1vw 0 0;
 }
 
@@ -142,7 +143,8 @@ header .logo {
 }
 
 .subBox h1 {
-    font-size: 1.1vw;
+    font-size: 1.4vw;
+
     font-family: 'Gotham-Bold';
     text-transform: uppercase;
 }
@@ -151,7 +153,7 @@ header .logo {
     font-family: 'Helvetica', sans-serif;
     color: black;
     text-align: left;
-    font-size: 0.9vw;
+    font-size: 1.05vw;
     text-transform: none;
     margin-top: 2vw;
 }
@@ -187,26 +189,6 @@ header .logo {
     align-items: center;
 }
 
-.home {
-    width: 3.4vw;
-}
-
-.PRICING {
-    width: 4.5vw;
-}
-
-.what {
-    width: 8vw;
-}
-
-.case {
-    width: 6.3vw;
-}
-
-.resources {
-    width: 6.6vw;
-}
-
 .dropdown:hover a {
     text-decoration: none;
 }
@@ -219,7 +201,7 @@ header .logo {
 .dropbtn {
     font-family: 'AvenirMedium';
     text-transform: uppercase;
-    font-size: 0.8vw;
+    font-size: 0.9vw;
     color: black;
     margin: 0;
     display: flex;
@@ -257,7 +239,7 @@ header .logo {
     border-bottom: 0.2vw solid #EC008C;
     display: flex;
     flex-direction: column;
-    padding: 4vw 21vw 4vw 16vw;
+    padding: 4vw 18vw;
     align-items: flex-end;
 }
 
@@ -304,13 +286,13 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     color: black;
     padding: 0 8vw 5.9vw 11.4vw;
 }
 
 .footerBox {
-    width: 100%;
+    width: 73%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -334,7 +316,9 @@ footer {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 17vw;
+    width: 11.6vw;
+    padding: 0 2vw 0 0;
+    border-bottom: 1px solid black;
 }
 
 .footerBox .boxLeft .footerText:hover {
@@ -342,8 +326,8 @@ footer {
 }
 
 .footerBox .boxLeft .footerText p {
+    font-size: 0.73vw;
     width: 80%;
-    border-bottom: 1px solid black;
     padding: 0 0 0.5vw;
 }
 
@@ -358,7 +342,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 0 7vw 0 0;
+    margin: 0 4vw 0 0;
 }
 
 .footerBox .footerMenu .clm:last-of-type {
@@ -366,20 +350,21 @@ footer {
 }
 
 .footerBox h1 {
-    font-size: 1.5vw;
+    font-size: 1.1vw;
+    letter-spacing: 0.1vw;
     font-family: 'Gotham-Bold';
     text-transform: uppercase;
     margin: 0 0 2vw;
 }
 
 .footerBox .footerMenu .clm p {
-    font-size: 0.9vw;
+    font-size: 0.63vw;
     font-family: 'GOTHAMROUNDED-BOOK';
     line-height: 3;
 }
 
 .footerLogo {
-    width: 14.5vw;
+    width: 8.8vw;
 }
 
 footer .footerRight {
@@ -389,8 +374,17 @@ footer .footerRight {
     align-items: center;
 }
 
+.footerRight h1 {
+    font-size: 0.83vw;
+    letter-spacing: 0.1vw;
+    font-family: 'Gotham-Bold';
+    text-transform: uppercase;
+}
+
 footer .footerRight .cml:first-of-type h1 {
-    padding-left: 1.3vw;
+    padding-left: 0.3vw;
+    font-size: 0.83vw;
+    letter-spacing: 0.1vw;
 }
 
 footer .footerRight .cml {
@@ -412,8 +406,8 @@ footer .inputBox {
 }
 
 .inputBox .email {
-    width: 32.7vw;
-    height: 4.2vw;
+    width: 24.85vw;
+    height: 3.1vw;
     border: 1px solid #000000;
     border-radius: 2vw;
     font-size: 0.84vw;
@@ -435,20 +429,21 @@ footer .inputBox {
 .inputBox .footerBtn {
     width: 100%;
     height: 100%;
-    font-size: 1.2vw;
+    font-size: 0.83vw;
     font-family: 'Gotham-Bold';
-    padding: 0 1.6vw;
     border-radius: 2vw;
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 0.17vw;
+    padding: 0 0vw 0 0.3vw;
+
 }
 
 footer .inputBox a {
     position: absolute;
-    right: 2%;
-    width: 10vw;
-    height: 3vw;
+    right: 1.5%;
+    width: 6.63vw;
+    height: 2.45vw;
 }
 
 .footerBox .socBox .blackBox {
@@ -457,12 +452,16 @@ footer .inputBox a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 3vw;
-    height: 3vw;
+    width: 2vw;
+    height: 2vw;
 }
 
 .footerBox .socBox a {
     margin: 0 0.7vw 0 0;
+}
+
+.footerBox:nth-child(2) {
+    width: 69%;
 }
 
 .footerBox .socBox .blackBox:hover {
@@ -479,18 +478,19 @@ footer .inputBox a {
 }
 
 footer .footerRight .cml:first-of-type {
-    margin: 0 8vw 0 0;
+    margin: 0 4vw 0 0;
 }
 
 footer .footerBox:last-of-type p {
     text-align: right;
     width: 100%;
-    font-size: 1vw;
+    font-size: 0.63vw;
     font-family: 'Gotham_Rounded_Bold';
 }
 
 .footerArrow {
-    width: 1.9vw;
+    width: 1.5vw;
+    margin: 0 0 0.7vw;
 }
 
 .footerMenu p:hover {
@@ -681,11 +681,17 @@ footer .footerBox:last-of-type p {
 
     footer .footerBox:last-of-type p {
         text-align: center;
-        font-size: 2vw;
+        font-size: 1.6vw;
     }
 
     footer .inputBox a {
         right: 3%;
+        width: 10.63vw;
+        height: 3.45vw;
+    }
+
+    .inputBox .footerBtn {
+        font-size: 1.3vw;
     }
 
     .footerBox .socBox .blackBox {
@@ -699,18 +705,34 @@ footer .footerBox:last-of-type p {
 
     .h1,
     .h2 {
-        font-size: 4.2vw;
+        font-size: 3.4vw;
     }
 
     .darkBtn {
         font-size: 1.45vw;
         width: 18.7vw;
-        height: 4.5vw;
+        height: 6.4vw;
     }
 
 
     .whiteBtn {
         font-size: 1.45vw;
+        height: 6.4vw;
+    }
+
+    .footerLogo {
+        width: 15.8vw;
+    }
+
+    .footerBox:nth-child(2) {
+        width: 100%;
+    }
+
+    footer .footerRight .cml:first-of-type h1,
+    .footerRight h1 {
+        padding-left: 0.3vw;
+        font-size: 1.5vw;
+        letter-spacing: 0.1vw;
     }
 
 
