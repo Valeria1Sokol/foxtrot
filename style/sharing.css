@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-color: #C2E8F4;
-    padding: 6vw 18.4vw;
+    padding: 6vw 18.4vw 4%;
 }
 
 .section2 {
@@ -35,7 +35,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 5vw 0 0;
+    padding: 3vw 0 0;
 }
 
 .allBox .box {
@@ -74,8 +74,9 @@ body {
 
 
 .section1 .darkBtn {
-    width: 16vw;
-    font-size: 0.9vw;
+    width: 14vw;
+    height: 3vw;
+    font-size: 0.8vw;
     border-radius: 3vw;
     padding: 1vw 3.8vw 1vw 2vw;
     letter-spacing: 0.05vw;
@@ -101,7 +102,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #F5F5F4;
-    padding: 9.5vw 18.4vw 10vw;
+    padding: 6vw 18.4vw;
     position: relative;
     overflow-x: hidden;
 }
@@ -116,6 +117,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin: 3vw 0 0;
 }
 
 .section3 .tipBox:nth-of-type(2n) .pinkCircle {
@@ -124,24 +126,24 @@ body {
 
 .section3 .tipBox:nth-of-type(2) .text {
     text-align: right;
-    margin: 4.2vw 5vw 0 0;
-    padding: 8.4vw 0vw 8.4vw 5vw;
+    margin: 0 5vw 0 0;
+    padding: 6vw 0vw 6vw 5vw;
 }
 
 .section3 .tipBox:nth-of-type(3) .text {
-    padding: 8.4vw 6.3vw 8.4vw 0;
+    padding: 6vw 6.3vw 6vw 0;
 }
 
 .section3 .tipBox:nth-of-type(4) .text {
     border: none;
-    padding: 8.4vw 0vw 8.4vw 7vw;
-    margin: 4.2vw 5vw 0 0;
+    padding: 6vw 0vw 6vw 7vw;
+    margin: 0 5vw 0 0;
 }
 
 .section3 .tipBox .pinkCircle {
     border-radius: 50%;
-    width: 2.4vw;
-    height: 2.4vw;
+    width: 2vw;
+    height: 2vw;
     background-color: #FF40B1;
     margin: 0 1vw 0 0;
 }
@@ -154,14 +156,15 @@ body {
 }
 
 .section3 .tipBox img {
-    width: 19vw;
+    width: 16vw;
 }
 
 .section3 .tipBox .text {
+    width: 50%;
     border-bottom: 0.22vw solid #EC008C;
     margin: 4.2vw 0 0 5vw;
     text-align: left;
-    padding: 8.4vw 2.3vw 8.4vw 0;
+    padding: 2% 2.3vw 5vw 0;
 }
 
 .section4 {
@@ -171,7 +174,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 8vw 18.4vw;
+    padding: 6vw 18.4vw;
 }
 
 .allPlans {
@@ -184,8 +187,8 @@ body {
 }
 
 .planBox {
-    width: 40.5%;
-    height: 27vw;
+    width: 38.5%;
+    height: 23vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -195,9 +198,9 @@ body {
 }
 
 .planBox .num {
-    font-size: 1.82vw;
+    font-size: 1.4vw;
     font-family: 'Gotham-Bold';
-    width: 51%;
+    width: 45%;
     height: 18%;
     border-radius: 0 0 50% 50% / 0 0 100% 100%;
     background-color: rgba(191, 191, 191, 0.4);
@@ -208,7 +211,7 @@ body {
 
 .planBox .h1,
 .planBox .h2 {
-    font-size: 1.84vw;
+    font-size: 1.6vw;
 
     letter-spacing: 0.6vw;
     text-align: center;
@@ -249,13 +252,13 @@ body {
 }
 
 .section5 .darkBtn {
-    width: 18.6vw;
-    height: 4.1vw;
+    width: 17.6vw;
+    height: 3.5vw;
     background-image: url(../img/whiteArrow.png);
     background-repeat: no-repeat;
     background-size: 6%;
     background-position: 90%;
-    font-size: 1.25vw;
+    font-size: 1.1vw;
     padding: 1vw 2vw 1vw 0px;
     margin-top: 4.9vw;
 }
@@ -384,6 +387,19 @@ body {
         position: relative;
         top: -0.2vw;
         font-size: 2.1vw;
+    }
+
+    .section3 .tipBox .text {
+        width: 66%;
+    }
+
+    .section3 .tipBox img {
+        width: 25vw;
+    }
+
+    .section3 .tipBox .pinkCircle {
+        width: 3vw;
+        height: 3vw;
     }
 }
 

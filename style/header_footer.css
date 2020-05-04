@@ -58,9 +58,9 @@ body {
 .h1 {
     font-size: 2.3vw;
     font-family: 'Gotham-Bold';
-    letter-spacing: 0.8vw;
+    letter-spacing: 0.3vw;
     text-transform: uppercase;
-    line-height: 2;
+    line-height: 1.5;
     width: 100%;
 }
 
@@ -68,9 +68,9 @@ body {
     font-size: 2.3vw;
     font-family: 'RunWild-Demo-2';
     text-transform: uppercase;
-    letter-spacing: 0.8vw;
+    letter-spacing: 0.3vw;
     font-weight: normal;
-    line-height: 2;
+    line-height: 1.5;
     width: 100%;
 }
 
@@ -87,7 +87,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 2.3vw 4.2vw;
+    padding: 1vw 4.2vw;
     position: relative;
     z-index: 1060;
 }
@@ -99,17 +99,17 @@ header .logo {
 }
 
 .navbar {
-    width: 54.4%;
+    width: 47%;
     height: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: transparent;
-    padding-top: 2%;
+    padding-top: 3%;
     position: relative;
     z-index: 1050;
-    margin: 0 0 0 4vw;
+    margin-left: 3%;
 }
 
 .subMenu {
@@ -143,8 +143,7 @@ header .logo {
 }
 
 .subBox h1 {
-    font-size: 1.4vw;
-
+    font-size: 1.1vw;
     font-family: 'Gotham-Bold';
     text-transform: uppercase;
 }
@@ -153,13 +152,13 @@ header .logo {
     font-family: 'Helvetica', sans-serif;
     color: black;
     text-align: left;
-    font-size: 1.05vw;
+    font-size: 0.9vw;
     text-transform: none;
-    margin-top: 2vw;
+    margin-top: 1vw;
 }
 
 .seeAll {
-    font-size: 0.9vw;
+    font-size: 0.75vw;
     color: #EC008C;
     font-family: 'GOTHAMROUNDED-BOOK';
     border-bottom: 1px solid #EC008C;
@@ -174,11 +173,32 @@ header .logo {
     float: left;
     overflow: hidden;
     height: 100%;
+    width: 20%;
     transition: 30s ease-in-out;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+}
+
+.dropdown:nth-of-type(1) {
+    width: 10%;
+}
+
+.dropdown:nth-of-type(2) {
+    width: 12%;
+}
+
+.dropdown:nth-of-type(3) {
+    width: 21%;
+}
+
+.dropdown:nth-of-type(4) {
+    width: 14%;
+}
+
+.dropdown:nth-of-type(5) {
+    width: 15%;
 }
 
 .navLeft {
@@ -201,7 +221,7 @@ header .logo {
 .dropbtn {
     font-family: 'AvenirMedium';
     text-transform: uppercase;
-    font-size: 0.9vw;
+    font-size: 0.8vw;
     color: black;
     margin: 0;
     display: flex;
@@ -209,7 +229,7 @@ header .logo {
     justify-content: center;
     align-items: center;
     height: 100%;
-    margin: 0 0.4vw 0 0;
+    margin: 0;
 }
 
 .dropbtn:hover {
@@ -288,16 +308,20 @@ footer {
     justify-content: center;
     align-items: center;
     color: black;
-    padding: 0 8vw 5.9vw 11.4vw;
+    padding: 6% 8vw 1.9vw 11.4vw;
 }
 
 .footerBox {
-    width: 73%;
+    width: 67%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5vw;
+    margin-top: 4vw;
+}
+
+.footerBox:first-of-type {
+    margin: 0;
 }
 
 .footerBox .boxLeft {
@@ -350,11 +374,11 @@ footer {
 }
 
 .footerBox h1 {
-    font-size: 1.1vw;
+    font-size: 0.95vw;
     letter-spacing: 0.1vw;
     font-family: 'Gotham-Bold';
     text-transform: uppercase;
-    margin: 0 0 2vw;
+    margin: 0 0 1vw;
 }
 
 .footerBox .footerMenu .clm p {
@@ -429,7 +453,7 @@ footer .inputBox {
 .inputBox .footerBtn {
     width: 100%;
     height: 100%;
-    font-size: 0.83vw;
+    font-size: 0.7vw;
     font-family: 'Gotham-Bold';
     border-radius: 2vw;
     cursor: pointer;
@@ -441,9 +465,9 @@ footer .inputBox {
 
 footer .inputBox a {
     position: absolute;
-    right: 1.5%;
+    right: 2.5%;
     width: 6.63vw;
-    height: 2.45vw;
+    height: 2vw;
 }
 
 .footerBox .socBox .blackBox {
@@ -458,10 +482,6 @@ footer .inputBox a {
 
 .footerBox .socBox a {
     margin: 0 0.7vw 0 0;
-}
-
-.footerBox:nth-child(2) {
-    width: 69%;
 }
 
 .footerBox .socBox .blackBox:hover {
@@ -499,7 +519,7 @@ footer .footerBox:last-of-type p {
 
 .modalMenu {
     position: fixed;
-    top: 11.16vw;
+    top: 8.5vw;
     right: 0;
     bottom: 0;
     left: 0;
@@ -705,13 +725,13 @@ footer .footerBox:last-of-type p {
 
     .h1,
     .h2 {
-        font-size: 3.4vw;
+        font-size: 4vw;
     }
 
     .darkBtn {
         font-size: 1.45vw;
         width: 18.7vw;
-        height: 6.4vw;
+        height: 4.5vw;
     }
 
 

@@ -15,8 +15,8 @@ header {
 }
 
 .pinkPoint {
-    width: 3.2vw;
-    height: 3.2vw;
+    width: 2vw;
+    height: 2vw;
     border-radius: 50%;
     background-color: #FF40B1;
     margin: 0 3vw 0 0;
@@ -25,7 +25,7 @@ header {
 .top {
     background-color: #C4EBF7;
     width: 100vw;
-    padding: 12.1% 0 8%;
+    padding: 6% 0 2%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,7 +39,7 @@ header {
     align-items: center;
     position: relative;
     width: fit-content;
-    font-size: 2.92vw;
+    font-size: 2.4vw;
 }
 
 .section1 {
@@ -74,7 +74,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 8% 0 0;
+    padding: 6% 0 0;
 }
 
 .section2 .main .h1,
@@ -103,13 +103,13 @@ header {
 }
 
 .section2 .box:nth-of-type(2n+1) .text {
-    width: 77%;
+    width: 67%;
     margin-left: 8vw;
 
 }
 
 .section2 .box:nth-of-type(2n+1) .img {
-    width: 60%;
+
     margin: 4.8vw 0 0 3vw;
 }
 
@@ -118,10 +118,10 @@ header {
 }
 
 .section2 .box .text {
-    width: 75%;
+    width: 60%;
     display: flex;
     flex-direction: column;
-    padding: 17% 0 0;
+    padding: 15% 0 0;
 }
 
 .section2 .p {
@@ -131,7 +131,7 @@ header {
 
 
 .section2 .box .img {
-    width: 55%;
+    width: 50%;
     margin: 1.8vw 0 0;
 }
 
@@ -153,8 +153,8 @@ header {
     align-items: center;
     background-color: #FFFF00;
     text-align: center;
-    padding: 5.5vw 0 7vw;
-    margin-top: 5vw;
+    padding: 6% 0;
+    margin-top: 1vw;
 }
 
 .section3 .start {
@@ -170,21 +170,22 @@ header {
 }
 
 .section3 .start p {
-    font-size: 2.3vw;
+    font-size: 2vw;
     color: black;
     font-family: 'Gotham-Bold';
-    margin: 0 0 5%;
+    margin: 0 0 3%;
     letter-spacing: 0.2vw;
 }
 
 .whiteBtn span {
-    font-size: 1.9vw;
+    font-size: 1.4vw;
     background-size: 7%;
 }
 
 .whiteBtn {
-    height: 6.5vw;
-    width: 25.8vw;
+        height: 4.5vw;
+    width: 19.8vw;
+
 }
 
 
@@ -228,6 +229,9 @@ header {
     }
     .section2 .box:nth-of-type(2n+1) .p {
     width: 80%;
+}
+    .top .h1 {
+    font-size: 3.4vw;
 }
 }
 
@@ -281,6 +285,19 @@ header {
     .section3 {
         margin-top: 15vw;
     }
+    .top .h1 {
+    font-size: 4.4vw;
+}
+    .section3 .start p {
+    font-size: 3vw;
+}
+    .whiteBtn span {
+    font-size: 2vw;
+}
+    .whiteBtn {
+    height: 5.5vw;
+    width: 24.8vw;
+}
 
 
 }
