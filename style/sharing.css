@@ -43,7 +43,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin: 0 7vw 0 0;
+    margin: 0 4vw 0 0;
 }
 
 .allBox .box:last-of-type {

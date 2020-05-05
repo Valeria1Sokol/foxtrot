@@ -68,13 +68,13 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 0 21%;
+    padding: 0 24%;
     margin: -11% 0 0;
 }
 
 .section2 .box {
     border-radius: 4vw;
-    width: 36.2%;
+    width: 38%;
     height: 21.5vw;
     background-color: #F1DCEB;
     display: flex;
@@ -134,25 +134,25 @@ header {
 }
 
 .box:nth-of-type(4) .bluePoint {
-    margin: -3vw 0 0 -2.6vw;
+    margin: -3vw 0 0 -2vw;
 }
 
 .yellowPoint {
     background-color: #FFFF00;
-    margin: -3vw 0 0 -1.6vw;
+    margin: -3vw 0 0 -1vw;
 }
 
 .box:nth-of-type(2) .yellowPoint {
-    margin: -3vw 0 0 -3.5vw;
+        margin: -3vw 0 0 -2.5vw;
 }
 
 .box:nth-of-type(6) .yellowPoint {
-    margin: -3vw 0 0 0.5vw;
+    margin: -3vw 0 0 -0.8vw;
 }
 
 .pinkPoint {
     background-color: #FF40B1;
-    margin: -3vw 0 0 -2.7vw;
+    margin: -3vw 0 0 -2vw;
 }
 
 @media all and (max-width:1280px) {
