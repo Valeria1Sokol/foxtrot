@@ -15,27 +15,27 @@
 
 <body>
     <header>
-       <div class="navLeft">
-        <a href="index.html"><img class='logo' src='img/logo-foxtrot.png'></a>
-        <div class="navbar">
-            <div class="dropdown">
-                <a class="dropbtn" href='index.html'>home</a>
-            </div>
-            <div class="dropdown">
-                <a class="dropbtn">PRICING</a>
-            </div>
-            <div class="dropdown">
-                <a class="dropbtn" href="whatTheFox.html">what the fox</a>
-            </div>
-            <div class="dropdown">
-                <a class="dropbtn" data-toggle="modal" data-target="#exampleModal">use cases</a>
-            </div>
-            <div class="dropdown">
-                <a class="dropbtn">RESOURCES</a>
+        <div class="navLeft">
+            <a href="index.html"><img class='logo' src='img/logo-foxtrot.png'></a>
+            <div class="navbar">
+                <div class="dropdown">
+                    <a class="dropbtn" href='index.html'>home</a>
+                </div>
+                <div class="dropdown">
+                    <a class="dropbtn">PRICING</a>
+                </div>
+                <div class="dropdown">
+                    <a class="dropbtn" href="whatTheFox.html">what the fox</a>
+                </div>
+                <div class="dropdown">
+                    <a class="dropbtn" data-toggle="modal" data-target="#exampleModal">use cases</a>
+                </div>
+                <div class="dropdown">
+                    <a class="dropbtn">RESOURCES</a>
+                </div>
             </div>
         </div>
-        </div>
-         <div class="nav__container">
+        <div class="nav__container">
             <nav class="nav-main">
                 <ul class="nav nav-pills">
                     <li>
@@ -138,6 +138,9 @@
     </div>
 
     <div class="container">
+       <section class="sectionMobile">
+            <div class="wave"></div>
+        </section>
         <section class="section1">
             <div class="box">
                 <div class="text">
@@ -194,7 +197,8 @@
                     </div>
                 </div>
                 <div class="boxTop">
-                    <div><span>“</span><p>DEEP DOWN WE’RE ALL CRAFTY CODING</p>
+                    <div><span>“</span>
+                        <p>DEEP DOWN WE’RE ALL CRAFTY CODING</p>
                     </div>
                     <div>
                         <p>NINJAS IN OUR HEARTS</p><span class="rotate">“</span>
@@ -213,10 +217,23 @@
                         <h2 class="h2">products</h2>
                     </div>
                     <p class="p" data-aos="fade-right" data-aos-duration="800">To help power your business, we came up with a way to define your campaign with unlimited curated design options for an advanced way of communicating with your customers.</p>
-                    <div class="btnCont" data-aos="fade-right" data-aos-duration="800">
-                        <a>
-                            <div class="darkBtn"><span>FIND OUT MORE</span></div>
-                        </a>
+                    <div class="top">
+                        <div class="btnCont" data-aos="fade-right" data-aos-duration="800">
+                            <a>
+                                <div class="darkBtn"><span>FIND OUT MORE</span></div>
+                            </a>
+                        </div>
+                        <div class="boxLeft">
+                            <a class="footerText" href="pickUpPlan.html">
+                                <p>SEE ALL PRODUCTS</p> <img src='img/footerArrow.png' class="footerArrow">
+                            </a>
+                            <a class="footerText">
+                                <p>READ MORE</p> <img src='img/footerArrow.png' class="footerArrow">
+                            </a>
+                            <a class="footerText" href="cases.html">
+                                <p>USE CASES</p> <img src='img/footerArrow.png' class="footerArrow">
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="imgBox">
@@ -239,6 +256,15 @@
     </div>
 
     <footer>
+       <section class="section9">
+            <h1 class="h1">START PLAYING WITH FOXTROT</h1>
+            <div class="inputBox">
+                <input type="text" placeholder="EMAIL:" class="email">
+                <a>
+                    <div class="darkBtn footerBtn"><span>Sign up</span></div>
+                </a>
+            </div>
+        </section>
         <div class="footerBox">
             <div class="boxLeft">
                 <a class="footerText" href="pickUpPlan.html">
@@ -320,9 +346,6 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-
     </script>
-     <script src="script/menu.js"></script>
-</body>
-
-</html>
+    <script src="script/menu.js"></script>
+</body></html>

@@ -368,6 +368,19 @@ body {
 }
 
 @media all and (max-width:768px) {
+    .section5 {
+        padding: 0 0 11vw 0vw;
+    }
+
+    header {
+        box-shadow: none;
+        background-color: #C4EBF7 !important;
+    }
+
+    .nav-pills {
+        background-color: #C4EBF7 !important;
+    }
+
     .allBox .box .img {
         width: 22vw;
         height: 19vw;

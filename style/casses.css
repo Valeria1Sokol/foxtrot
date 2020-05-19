@@ -143,7 +143,7 @@ header {
 }
 
 .box:nth-of-type(2) .yellowPoint {
-        margin: -3vw 0 0 -2.5vw;
+    margin: -3vw 0 0 -2.5vw;
 }
 
 .box:nth-of-type(6) .yellowPoint {
@@ -154,6 +154,10 @@ header {
     background-color: #FF40B1;
     margin: -3vw 0 0 -2vw;
 }
+.section9
+{
+    display: none!important;
+}
 
 @media all and (max-width:1280px) {
     .section2 {
@@ -162,6 +166,19 @@ header {
 }
 
 @media all and (max-width:768px) {
+    .section9
+{
+    display: flex!important;
+}
+    header {
+        box-shadow: none;
+        background-color: #FFFF00!important;
+    }
+    .nav-pills
+    {
+       background-color: #FFFF00!important; 
+    }
+
     .bluePoin {
         width: 4vw;
         height: 4vw;
@@ -201,15 +218,15 @@ header {
     .top {
         padding: 10.5% 0 14%;
     }
-     .section2
-    {
+
+    .section2 {
         position: relative;
         overflow-x: hidden;
     }
- 
+
     .section2 {
-    margin: -23% 0 0;
-}
+        margin: -23% 0 10%;
+    }
 
 }
 
@@ -217,15 +234,16 @@ header {
     .section2 {
         margin: -17% 0 0;
     }
-       .section1 {
-    height: 52px;
-}
+
+    .section1 {
+        height: 52px;
+    }
+
     .section1 .wave {
-    background-size: cover;
-    height: 52px;
+        background-size: cover;
+        height: 52px;
         animation: wave 5s linear infinite;
+    }
 }
-}
-@media (max-width: 375px) {
-   
-}
+
+@media (max-width: 375px) {}

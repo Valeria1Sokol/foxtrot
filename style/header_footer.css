@@ -674,21 +674,124 @@ footer .footerBox:last-of-type p {
     overflow: hidden;
 }
 
-@media all and (max-width:768px) {
+.section9 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 0 0;
+}
 
-    .navbar,
-    .searchBox,
-    .footerBox .boxLeft,
-    .footerBox .footerMenu {
+.section9 .inputBox {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section9 .inputBox .email {
+    width: 51.4vw;
+    height: 5.2vw;
+    border: 1px solid #000000;
+    border-radius: 4vw;
+    font-size: 1.3vw;
+    font-family: 'GOTHAMROUNDED-BOOK';
+    color: black;
+    padding: 0 3vw;
+    outline: none;
+}
+
+
+.section9 .inputBox .email::placeholder {
+    text-transform: uppercase;
+    letter-spacing: 0.2vw;
+}
+
+.section9 h1 {
+    text-align: center;
+    font-family: 'GothamRoundedMedium_21022';
+    text-transform: uppercase;
+    margin: 0 0 2vw;
+    letter-spacing: 0.4vw;
+}
+
+.section9 .inputBox .footerBtn {
+    width: 100%;
+    height: 100%;
+    font-size: 1.1vw;
+    font-family: 'Gotham-Bold';
+    padding: 0;
+    border-radius: 3vw;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.14vw;
+    box-shadow: 7px 5px 6px rgba(0, 0, 0, 0.2);
+}
+
+.section9 .inputBox a {
+    position: absolute;
+    right: 3%;
+    width: 12vw;
+    height: 3.4vw;
+}
+
+@media all and (max-width:768px) {
+    .section9 .inputBox a {
+        position: absolute;
+        right: 3%;
+        width: 16vw;
+        height: 4.4vw;
+    }
+
+    .navbar {
         display: none;
     }
 
     footer {
-        padding: 0 6vw 3.9vw 5.4vw;
+        padding: 0 7% 3.9vw;
     }
 
     .footerBox:first-of-type {
         margin: 0;
+    }
+
+    .footerBox .boxLeft .footerText p {
+        font-size: 1.73vw;
+        width: 100%;
+        padding: 0 0 0.5vw;
+    }
+
+    .footerBox .footerMenu .clm {
+        margin: 0 5vw 0 0;
+    }
+
+    .footerArrow {
+        width: 1.5vw;
+        margin: 0 0 0.7vw;
+    }
+
+    .footerBox .footerMenu .clm p {
+        font-size: 1vw;
+    }
+
+    .footerBox {
+        width: 96%;
+    }
+
+    .footerBox:first-of-type {
+        padding: 10% 0 0;
+    }
+
+    .footerBox h1 {
+        font-size: 1.5vw;
+    }
+
+    .footerBox .boxLeft .footerText {
+        margin: 1vw 0;
+        width: 22.6vw;
     }
 
     .inputBox .email {
@@ -720,24 +823,25 @@ footer .footerBox:last-of-type p {
     }
 
     .p {
-        font-size: 2.2vw;
+        font-size: 2.8vw;
     }
 
     .h1,
     .h2 {
-        font-size: 4vw;
+        font-size: 4.2vw;
+        letter-spacing: 0.5vw;
     }
 
     .darkBtn {
-        font-size: 1.45vw;
-        width: 18.7vw;
-        height: 4.5vw;
+        font-size: 2.7vw;
+        width: 28.7vw;
+        height: 8vw;
     }
 
-
     .whiteBtn {
-        font-size: 1.45vw;
-        height: 6.4vw;
+        font-size: 3vw;
+        width: 31.7vw;
+        height: 8vw;
     }
 
     .footerLogo {
@@ -755,6 +859,18 @@ footer .footerBox:last-of-type p {
         letter-spacing: 0.1vw;
     }
 
+    .section9 .inputBox .email {
+        width: 79.4vw;
+        height: 8.2vw;
+        border: 1px solid #000000;
+        border-radius: 7vw;
+        font-size: 2.3vw;
+        font-family: 'GOTHAMROUNDED-BOOK';
+        color: black;
+        padding: 0 3vw;
+        outline: none;
+    }
+
 
 
     /* Colours */
@@ -765,13 +881,14 @@ footer .footerBox:last-of-type p {
 
     .nav__container {
         position: absolute;
-        top: 100%;
+        top: 52%;
         left: 0;
         right: 0;
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.6s ease;
         background-color: white;
+        z-index: 5;
     }
 
     .nav__container.open {
@@ -839,7 +956,7 @@ footer .footerBox:last-of-type p {
         top: 0;
         bottom: 0;
         margin: auto;
-        right: 1.5vw;
+        right: 0;
         z-index: 1;
         background-color: transparent;
     }
@@ -908,12 +1025,34 @@ footer .footerBox:last-of-type p {
     }
 
     header {
-        padding: 0vw 9%;
+        padding: 0vw 7%;
+        flex-wrap: wrap;
+    }
+
+    .searchBox {
+        width: 100%;
+    }
+
+    .searchBox .searchImg {
+        display: none;
+    }
+
+    .searchBox .searchInput {
+        width: 84%;
+        height: 6.8vw;
+        border-radius: 6vw;
+        font-size: 1.5vw;
+        padding: 0.5vw 4vw 0;
+        background-image: url(../img/search.png);
+        background-position: 95%;
+        background-repeat: no-repeat;
+        background-size: 4%;
     }
 
 }
 
 @media all and (max-width:425px) {
+    /*
     .darkBtn {
         font-size: 2vw;
         width: 18.7vw;
@@ -936,5 +1075,6 @@ footer .footerBox:last-of-type p {
         font-size: 3vw;
         font-family: 'GOTHAMROUNDED-BOOK';
     }
+*/
 
 }

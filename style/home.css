@@ -391,78 +391,111 @@ body {
     animation: wave 3s linear infinite;
 }
 
-.section9 {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 6% 0 0;
-}
-
-.section9 .inputBox {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-}
 
 
-.section9 .inputBox .email {
-    width: 51.4vw;
-    height: 5.2vw;
-    border: 1px solid #000000;
-    border-radius: 4vw;
-    font-size: 1.3vw;
-    font-family: 'GOTHAMROUNDED-BOOK';
-    color: black;
-    padding: 0 3vw;
-    outline: none;
-}
-
-
-.section9 .inputBox .email::placeholder {
-    text-transform: uppercase;
-    letter-spacing: 0.2vw;
-}
-
-.section9 h1 {
-    text-align: center;
-    font-family: 'GothamRoundedMedium_21022';
-    text-transform: uppercase;
-    margin: 0 0 2vw;
-    letter-spacing: 0.4vw;
-}
-
-.section9 .inputBox .footerBtn {
-    width: 100%;
-    height: 100%;
-    font-size: 1.1vw;
-    font-family: 'Gotham-Bold';
-    padding: 0;
-    border-radius: 3vw;
-    cursor: pointer;
-    text-transform: uppercase;
-    letter-spacing: 0.14vw;
-    box-shadow: 7px 5px 6px rgba(0, 0, 0, 0.2);
-}
-
-.section9 .inputBox a {
-    position: absolute;
-    right: 3%;
-    width: 12vw;
-    height: 3.4vw;
+.mobileWave {
+    display: none;
 }
 
 @media all and (max-width:768px) {
+
+
+    .section1 .img {
+        margin: 7vw 0 0 15vw;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .section1 .secImg {
+        width: 56.7vw;
+        margin: 0 2vw 0 0;
+    }
+
+    .section1 .letter {
+        width: 13.5vw;
+        margin: 6vw 0 0vw 0;
+    }
+
+    .section1 {
+        padding: 7.2% 15.8% 9% 16.5%;
+        flex-direction: column;
+    }
+
+    .section1 .p {
+        margin-top: 6.1vw;
+        width: 89%;
+    }
+
+    .section2 {
+        padding: 10% 7%;
+    }
+
+    .section2 .video {
+        width: 100%;
+        height: 45.5vw;
+        background-color: #D8D6D6;
+        margin: 0 0 9vw;
+    }
+
     .section2 .whiteBtn span {
         height: 101%;
-        width: 21.7vw;
+        width: 35vw;
+        padding: 0.3vw 6vw 0 0;
+    }
+
+    .section2 .whiteBtn {
+        width: 35vw;
+        height: 8vw;
+        margin: 0;
+    }
+
+    .pinkText {
+        font-size: 3.8vw;
+        margin: 11% 0 10%;
+        letter-spacing: 0.5vw;
+    }
+
+    .section4 .textBox {
+        padding: 6% 0% 0;
+        flex-direction: column-reverse;
+    }
+
+    .section4 .imgBlock {
+        width: 100%;
+        justify-content: center;
+        padding: 3vw 0vw 3vw 0;
     }
 
     .section4 {
         padding: 2% 0 0;
+    }
+
+    .section4 {
+        padding: 7% 0% 0;
+    }
+
+    .section4 .textBox .text {
+        padding: 0 7%;
+        width: 100%;
+    }
+
+    .section4 .btnCont {
+        margin-top: 0;
+        justify-content: center;
+    }
+
+    .section4 .whiteBtn {
+        width: 33vw;
+        height: 8vw;
+        margin: 5vw 0 7vw;
+    }
+
+    .section4 .btnCont img {
+        display: none;
+    }
+
+    .section4 .textBox .ballon {
+        width: 40%;
     }
 
     .section5 .boxCont {
@@ -477,27 +510,8 @@ body {
     .section5 .boxCont .box .darkBtn {
         font-size: 1.15vw;
         width: 18.7vw;
+        height: 5vw;
         padding: 0vw 5.3vw 0.2vw 2.8vw;
-    }
-
-    .section6 {
-        padding: 10% 11.5% 10%;
-    }
-
-    .section4 .textBox {
-        padding: 6% 8% 6% 0;
-    }
-
-    .section4 .imgBlock {
-        width: 51%;
-    }
-
-    .section7 {
-        padding: 0 0 7.2% 11.5%;
-    }
-
-    .section1 {
-        padding: 7.2% 6.8% 9% 11.5%;
     }
 
     .section5 .boxCont {
@@ -508,97 +522,121 @@ body {
         width: 22vw;
     }
 
-
-    .section1 .img {
-        margin: 0px 0 0 4vw;
-    }
-
-    .section1 .p {
-        width: 88%;
-    }
-
-    .section1 .secImg {
-        width: 33.7vw;
-        margin: 0 2vw 0 0;
-    }
-
-    .section1 .letter {
-        width: 10.5vw;
-    }
-
-    .section2 .whiteBtn {
-        width: 21.7vw;
-        height: 4.5vw;
-        margin: 0 0 33%;
-    }
-
-    .section4 .textBox .text {
-        padding: 2.5% 0% 0 8%;
+    .section6 {
+        padding: 7% 7% 8%;
     }
 
     .section6 .ballon {
-        width: 29%;
-        margin: 0 7% 0 0;
+        width: 33%;
+        margin: 0;
     }
 
     .section6 .p {
-        width: 87%;
+        width: 100%;
+    }
+
+    .section6 .h1 {
+        text-align: center;
+    }
+
+    .section6 .h2 {
+        padding-left: 17vw;
     }
 
     .section6 .textBox {
-        padding: 0% 0 0;
+        padding: 0%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
 
     .section6 .btnCont img {
-        margin: 0vw;
-        right: 52%;
+        position: relative;
+        width: 3.5vw;
+        margin: 2vw 0 0 4vw;
+        left: 0;
+    }
+
+    .section7 {
+        padding: 7% 0% 0%;
+
+    }
+
+    .section7 .textBox {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
 
     .section7 .ballon {
-        width: 70%;
-
+        width: 40%;
     }
 
     .section7 .imgBox {
-        width: 50%;
-        margin: -6% 0 0 0;
-        padding: 10.6vw 0vw 11.6vw 9vw;
+        width: 100%;
+        margin: -18vw 0 0;
+        padding: 20vw 0 7%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
     }
 
     .section7 .h1 {
-        margin: 0 0 8%;
+        margin: 0 0 6%;
+        text-align: center;
+        justify-content: center;
     }
 
-    .section7 .darkBtn {
-        font-size: 1.45vw;
-        width: 18.7vw;
-        height: 4.5vw;
+    .section7 .h1 span {
+        font-size: 3.3vw;
     }
 
     .section7 .btnCont img {
-        right: 46%;
+        position: relative;
+        width: 3.5vw;
+        margin: 2vw 0 0 4vw;
+        left: 0;
     }
 
     .section1 .inputBox {
         width: 100%;
+        margin-top: 8.6vw;
     }
 
     .section1 .whiteBtn,
     .section2 .darkBtn {
-        height: 4.5vw;
-        width: 18.8vw;
-        font-size: 1.45vw;
+        font-size: 2.7vw;
+        width: 35vw;
+        height: 8vw;
     }
 
-    .section4 .whiteBtn,
-    .section6 .darkBtn {
-        height: 4.5vw;
-        width: 18.8vw;
-        font-size: 1.45vw;
+    .section8 {
+        display: none;
+    }
+
+
+    .section6 .darkBtn,
+    .section7 .darkBtn {
+        font-size: 2.7vw;
+        width: 35vw;
+        height: 8vw;
+    }
+
+    .section6 .btnCont,
+    .section7 .btnCont {
+        margin: 7% 0 9%;
+        justify-content: center;
     }
 
     .whiteBtn span {
-        font-size: 1.45vw !important;
+        font-size: 2.7vw !important;
+    }
+
+    .section2 .btnCont img {
+        position: relative;
+        width: 3.5vw;
+        margin: 2vw 0 0 6vw;
+        right: 0;
     }
 
     .btnCont img {
@@ -609,7 +647,7 @@ body {
     }
 
     .section4 .whiteBtn span {
-        padding: 0.3vw 2vw 0 0;
+        padding: 0.3vw 5vw 0 0;
     }
 
     .nav__container {
@@ -618,118 +656,27 @@ body {
     }
 
     .section7 .textBox .text {
-        padding: 6% 8.2% 0 0;
-        width: 50%;
+        padding: 0 7%;
+        width: 100%;
     }
+
+    .mobileWave {
+        display: flex;
+    }
+
+  
 }
 
+
+
 @media all and (max-width:425px) {
-    .section4 .imgBlock {
-        width: 50%;
-        padding: 7vw 6vw 7vw 0;
-        margin: 0 4vw 0 0;
-    }
-
-    .section1 {
-        padding: 7.2% 2.8% 16% 11.5%;
-        position: relative;
-        overflow-x: hidden;
-    }
-
-    .section2 .whiteBtn {
-        width: 25.7vw;
-        height: 6.3vw;
-        margin: 0 0 20%;
-    }
 
     .section3 .wave,
-    .section8 .wave {
+    .mobileWave .wave {
         width: 100%;
         height: 52px;
         background-size: cover;
         animation: wave 5s linear infinite;
-    }
-
-    .section1 .whiteBtn,
-    .section2 .darkBtn {
-        font-size: 2vw;
-        height: 6.3vw;
-        width: 24.7vw;
-    }
-
-    .whiteBtn span {
-        font-size: 2vw !important;
-        background-size: 7%;
-    }
-
-    .section6 .btnCont {
-        margin-top: 5vw;
-    }
-
-    .section3,
-    .section8 {
-        height: 52px;
-    }
-
-    .section4 {
-        padding: 6% 0 0;
-    }
-
-    .section4,
-    .section5,
-    .section6,
-    .section7 {
-        position: relative;
-        overflow-x: hidden;
-    }
-
-    .section1 .inputBox {
-        padding: 0;
-    }
-
-    .section2 .darkBtn {
-        width: 27.1vw;
-        height: 6.5vw;
-        font-size: 2vw;
-    }
-
-    .btnCont img {
-        margin: 1vw 0 0 18vw;
-    }
-
-    .section2 .whiteBtn span {
-        font-size: 2vw;
-        width: 25.7vw;
-        padding: 0.3vw 3vw 0 0;
-    }
-
-
-    .section4 .textBox .ballon {
-            width: 67%;
-    }
-
-    .section4 .textBox .text {
-        padding: 0% 0 0;
-    }
-
-    .section4 .textBox {
-        padding: 6% 4% 6% 0;
-    }
-
-    .section4 .textBox .ballon {
-        margin: 0 4.5% 0 0;
-    }
-
-
-    .section4 .h1,
-    .section4 .h2 {
-        padding-left: 0;
-        text-align: center;
-    }
-
-    .section4 .whiteBtn {
-        width: 25vw;
-        height: 6.4vw;
     }
 
     .section5 .boxCont .box .darkBtn {
@@ -739,63 +686,25 @@ body {
         background-size: 9%;
     }
 
-    .section6 .darkBtn,
-    .section7 .darkBtn {
-        font-size: 2vw;
-        width: 25vw;
-        height: 6.5vw;
+    .section7 .imgBox {
+        margin: -11vw 0 0;
     }
 
-    .btnCont img {
-        width: 2.3vw;
-        height: 2.3vw;
-            right: 30%;
+    .section9 {
+        padding: 13% 0 0;
     }
 
-    .section7 .btnCont img {
-        left: 69%;
-    }
-
-    .section7 .ballon {
-        width: 47%;
-        margin: -6% 0 0 5%;
-    }
-
-    .section7 .textBox .text {
-        padding: 6vw 0 0;
-    }
-
-    .section7 .h1 {
-        margin: 0 0 12%;
-    }
-
-    .section9 .inputBox .footerBtn {
-        font-size: 2vw;
-        width: 23vw;
-        height: 5vw;
-        padding: 1.8vw 0 2vw;
-        border-radius: 4vw;
-    }
-
-    .section9 .inputBox a {
-        position: absolute;
-        right: 2%;
-        width: fit-content;
-        height: fit-content;
-    }
 
     [data-aos][data-aos][data-aos-delay="700"].aos-animate,
     body[data-aos-delay="700"] [data-aos].aos-animate {
         transition-delay: .3s !important;
     }
 
-    .section6 .btnCont img {
-        margin: 0vw;
-        left: 58%;
+
+    .section3,
+    .mobileWave {
+        height: 51px;
     }
 
-    .section9 .inputBox .email {
-        width: 67.4vw;
-        height: 8.2vw;
-    }
+
 }

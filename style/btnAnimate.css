@@ -198,7 +198,9 @@
     }
 
     .whiteBtn span {
-        height: 101%;
+        padding: 0.3vw 5.4vw 0 0;
+        background-position: 86%;
+        height: 102%;
     }
 
     .darkBtn::after,

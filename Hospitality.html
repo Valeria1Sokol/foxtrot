@@ -19,9 +19,18 @@
         .section2 .box .text {
             padding-top: 0;
         }
+
         @media all and (max-width:768px) {
             .section2 .box .text {
-                padding: 12% 0 10%;
+                padding: 12% 0 0%;
+            }
+
+            .section2 .box:nth-of-type(2n+1) .p {
+                width: 100%;
+            }
+
+            .section2 .p {
+                height: 21vw;
             }
         }
 
@@ -30,27 +39,27 @@
 
 <body>
     <header>
-       <div class="navLeft">
-        <a href="index.html"><img class='logo' src='img/logo-foxtrot.png'></a>
-        <div class="navbar">
-            <div class="dropdown">
-                <a class="dropbtn" href='index.html'>home</a>
-            </div>
-            <div class="dropdown">
-                <a class="dropbtn">PRICING</a>
-            </div>
-            <div class="dropdown">
-                <a class="dropbtn" href="whatTheFox.html">what the fox</a>
-            </div>
-            <div class="dropdown">
-                <a class="dropbtn" data-toggle="modal" data-target="#exampleModal">use cases</a>
-            </div>
-            <div class="dropdown">
-                <a class="dropbtn">RESOURCES</a>
+        <div class="navLeft">
+            <a href="index.html"><img class='logo' src='img/logo-foxtrot.png'></a>
+            <div class="navbar">
+                <div class="dropdown">
+                    <a class="dropbtn" href='index.html'>home</a>
+                </div>
+                <div class="dropdown">
+                    <a class="dropbtn">PRICING</a>
+                </div>
+                <div class="dropdown">
+                    <a class="dropbtn" href="whatTheFox.html">what the fox</a>
+                </div>
+                <div class="dropdown">
+                    <a class="dropbtn" data-toggle="modal" data-target="#exampleModal">use cases</a>
+                </div>
+                <div class="dropdown">
+                    <a class="dropbtn">RESOURCES</a>
+                </div>
             </div>
         </div>
-        </div>
-         <div class="nav__container">
+        <div class="nav__container">
             <nav class="nav-main">
                 <ul class="nav nav-pills">
                     <li>
@@ -225,6 +234,15 @@
     </div>
 
     <footer>
+        <section class="section9">
+            <h1 class="h1">START PLAYING WITH FOXTROT</h1>
+            <div class="inputBox">
+                <input type="text" placeholder="EMAIL:" class="email">
+                <a>
+                    <div class="darkBtn footerBtn"><span>Sign up</span></div>
+                </a>
+            </div>
+        </section>
         <div class="footerBox">
             <div class="boxLeft">
                 <a class="footerText" href="pickUpPlan.html">
@@ -300,7 +318,7 @@
         </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -308,7 +326,7 @@
         AOS.init();
 
     </script>
-     <script src="script/menu.js"></script>
+    <script src="script/menu.js"></script>
 </body>
 
 </html>

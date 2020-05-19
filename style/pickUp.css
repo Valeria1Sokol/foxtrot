@@ -221,7 +221,6 @@ tbody.collapse.show {
     position: relative;
     width: 100%;
     pointer-events: none;
-
 }
 
 .modalBox {
@@ -266,7 +265,6 @@ tbody.collapse.show {
     padding: 3% 0;
     margin: 0 0 2vw;
 }
-
 
 .priceBox {
     width: 68.5%;
@@ -474,7 +472,6 @@ tbody.collapse.show {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
 }
 
 .planBox .table .cmlRight div:nth-of-type(2n) {
@@ -539,10 +536,19 @@ tbody.collapse.show {
 footer {
     padding: 6vw 8vw 1.9vw 11.4vw;
 }
+.section9
+{
+    display: none;
+}
 
 @media all and (max-width:768px) {
+    .section9
+{
+    display: flex;
+}
     .containerBox {
         padding: 9.6% 11% 12.3% 11%;
+        border-top: none;
     }
 
     .planBox .num {
@@ -561,6 +567,7 @@ footer {
 
     .planBox {
         height: 36vw;
+        width: 43%;
     }
 
     .planBox a {
@@ -586,8 +593,9 @@ footer {
     }
 
     .card .card-body {
-        font-size: 2vw;
+        font-size: 2.3vw;
         line-height: 1.4;
+        width: 93%;
     }
 
     .card .span::after {

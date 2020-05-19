@@ -272,7 +272,7 @@ footer {
     width: 23.8vw;
 }
 
-.boxLeft {
+.section6 .boxLeft {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -302,13 +302,69 @@ footer {
     padding: 0 0 0.5vw;
 }
 
+.section6 .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.section6 .top .boxLeft {
+    display: none;
+}
+.section9
+{
+    display: none!important;
+}
+
 @media all and (max-width:768px) {
+    .section9
+{
+    display: flex!important;
+}
+    header {
+        box-shadow: none;
+    }
+
+    .sectionMobile {
+        width: 100%;
+        height: 143px;
+        position: relative;
+        margin-top: 5%;
+    }
+
+    .sectionMobile .wave {
+        background-image: url(../img/sec1MobBG.png);
+        width: 100%;
+        height: 143px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        animation: wave 3s linear infinite;
+    }
+
+    .container {
+        border-bottom: 0.2vw solid #EC008C;
+    }
+
+    .section1 .box {
+        flex-direction: column;
+    }
+
     .section1 .box .text {
-        padding: 9% 0 11% 11%;
+        padding: 9% 0 9% 18%;
+        width: 100%;
     }
 
     .section1 .imgBox {
-        padding: 14.4% 0;
+        padding: 0% 0 3%;
+        width: 100%;
+    }
+
+    .section1 .imgBox img {
+        width: 40%;
+        margin: 0;
     }
 
     .section2 .darkBtn,
@@ -320,22 +376,37 @@ footer {
         padding: 0 2.3vw 0 0;
     }
 
+    .section2 .video {
+        width: 100%;
+        height: 45.5vw;
+        margin: 0 0 9vw;
+    }
+
+    .section2 {
+        padding: 9% 7% 10%;
+    }
+
     .section3 {
-        padding: 9% 11.5%;
+        padding: 9% 8%;
+    }
+
+    .section3 .box {
+        margin: 0 0 16%;
     }
 
     .section4 {
-        padding: 3% 14.3% 9%;
+        padding: 8% 14.3% 9%;
     }
 
     .section6 .box .text {
-        padding: 5.7% 7.5% 8.4% 9.5%;
+        padding: 11% 11%;
     }
 
     .section1,
     .section3,
     .section4,
-    .section5 {
+    .section5,
+    .sectionMobile {
         position: relative;
         overflow-x: hidden;
     }
@@ -344,72 +415,104 @@ footer {
         font-size: 3.3vw;
     }
 
+    .section4 .box .boxBottom {
+        flex-direction: column-reverse;
+    }
+
+    .section4 .imgBox img {
+        width: 28.4vw;
+        margin-top: 11%;
+    }
+
+    .section4 .boxTop p {
+        font-size: 3vw;
+        line-height: 3;
+    }
+
+    .section6 .box {
+        flex-direction: column-reverse;
+    }
+
+    .section6 .box .imgBox {
+        padding: 5% 0 8%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section6 .box .imgBox .boxLeft {
+        display: none;
+    }
+
+    .section6 .box .imgBox .lilo {
+        width: 33.8vw;
+    }
+
+    .section6 .p {
+        font-size: 2.7vw;
+    }
+
+    .section6 .top .boxLeft {
+        display: flex;
+        margin: 0;
+    }
+
+    .section6 .box .text p {
+        padding: 7% 0;
+    }
+
+    .section6 .boxLeft .footerText {
+        font-size: 2.25vw;
+        width: 35vw;
+        margin: 0;
+    }
+
+    .section6 .footerArrow {
+        width: 3.5vw;
+        margin: 0 0 0.7vw;
+    }
+
+    .section6 .boxLeft .footerText p {
+        border-bottom: none;
+    }
+
+    .section6 .boxLeft .footerText {
+        border-bottom: 1px solid black;
+    }
+
+    .section6 .boxLeft .footerText:first-of-type {
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+    }
+
+    .section6 .box .text .border {
+        padding: 0 0 5%;
+    }
+
+    .section6 .box .text .btnCont {
+        margin-left: 0;
+    }
+
+    .footerBox .boxLeft {
+        margin: 0;
+    }
 }
 
 @media all and (max-width:425px) {
-    .section1 .imgBox {
-        width: 41%;
-    }
 
-    .section1 .box .text {
-        width: 59%;
-        padding: 7% 0 11% 6%;
-    }
 
-    .section2 {
-        padding: 7% 0 6%;
-    }
-
-    .section5 .wave {
+    .section5 .wave,
+    .sectionMobile .wave {
         height: 52px;
         background-size: cover;
         animation: wave 5s linear infinite;
     }
 
+    .sectionMobile,
     .section5 {
         height: 52px;
     }
 
-    .section1 .imgBox img {
-        width: 74%;
-    }
-
-
-    .section4 {
-        background-color: #C4EBF7;
-        width: 100%;
-        padding: 7% 11% 14%;
-    }
-
-    .section4 .box .boxBottom .h1,
-    .section4 .box .boxBottom .h2 {
-        font-size: 3.5vw;
-    }
-
-    .section4 .boxTop p {
-        font-size: 3.2vw;
-    }
-
-    .section4 .boxTop div:last-of-type {
-        margin: -2% 0 0;
-    }
-
-
-    .section6 .box .text {
-        padding: 8% 7.5% 8.4% 9.5%;
-    }
-
-    .boxLeft .footerText {
-        font-size: 2.25vw;
-        width: 31vw;
-    }
-
-    .section6 .box .imgBox {
-        padding: 4.1% 5% 6.5% 5%;
-    }
-
-    .footerArrow {
-        width: 3.5vw;
-    }
 
 }
