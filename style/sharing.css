@@ -382,8 +382,18 @@ body {
     }
 
     .allBox .box .img {
-        width: 22vw;
-        height: 19vw;
+        width: 25vw;
+        height: 23vw;
+    }
+
+    .section1 .darkBtn {
+        width: 24vw;
+        height: 6vw;
+        font-size: 1.8vw;
+        border-radius: 5vw;
+        padding: 1.4vw 4.8vw 1vw 2vw;
+        letter-spacing: 0.1vw;
+        background-position: 92%;
     }
 
     .darkBtn {
@@ -393,7 +403,16 @@ body {
     }
 
     .section3 {
-        padding: 9.5vw 11vw 10vw;
+        padding: 9.5vw 10vw 10vw;
+    }
+
+    .section3 .tipBox:nth-of-type(2) .text {
+        padding: 6vw 0vw 6vw 0vw;
+    }
+
+    .planBox {
+        width: 45%;
+        height: 29vw;
     }
 
     .carousel-control.right:before {
@@ -414,16 +433,37 @@ body {
         width: 3vw;
         height: 3vw;
     }
+
+    .section1 {
+        padding: 10vw 7.4vw 4%;
+    }
+
+    .planBox .num {
+        font-size: 2vw;
+    }
+
+    .planBox .h1,
+    .planBox .h2 {
+        font-size: 2.3vw;
+    }
+
+    .planBox a {
+        width: 54%;
+        font-size: 1.4vw;
+    }
+
+    .section5 .darkBtn {
+        width: 23.6vw;
+        height: 5.5vw;
+        background-size: 5%;
+        background-position: 91%;
+        font-size: 1.7vw;
+        padding: 1vw 2vw 1vw 0px;
+        margin-top: 4.9vw;
+    }
 }
 
 @media all and (max-width:425px) {
-    .section4 {
-        padding: 8vw;
-    }
-
-    .planBox {
-        height: 36vw;
-    }
 
     .section2 .wave {
         background-size: cover;
@@ -439,20 +479,6 @@ body {
         height: 52px;
     }
 
-    .planBox .h1,
-    .planBox .h2 {
-        font-size: 3vw;
-    }
-
-    .planBox .num {
-        font-size: 2vw;
-    }
-
-    .carousel-control.right:before {
-        position: relative;
-        top: 0vw;
-    }
-
     .section5,
     .section3,
     .section4 {
@@ -460,12 +486,4 @@ body {
         overflow-x: hidden;
     }
 
-    .planBox a {
-        width: 65%;
-        font-size: 1.7vw;
-    }
-
-    .planBox a img {
-        width: 1.7vw;
-    }
 }

@@ -739,6 +739,10 @@ footer .footerBox:last-of-type p {
 }
 
 @media all and (max-width:768px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .section9 .inputBox a {
         position: absolute;
         right: 3%;
@@ -778,7 +782,7 @@ footer .footerBox:last-of-type p {
     }
 
     .footerBox {
-        width: 96%;
+        width: 100%;
     }
 
     .footerBox:first-of-type {
@@ -823,7 +827,7 @@ footer .footerBox:last-of-type p {
     }
 
     .p {
-        font-size: 2.8vw;
+        font-size: 3.3vw;
     }
 
     .h1,
@@ -881,7 +885,7 @@ footer .footerBox:last-of-type p {
 
     .nav__container {
         position: absolute;
-        top: 52%;
+        top: 65%;
         left: 0;
         right: 0;
         max-height: 0;
@@ -1025,7 +1029,7 @@ footer .footerBox:last-of-type p {
     }
 
     header {
-        padding: 0vw 7%;
+        padding: 7% 7% 0;
         flex-wrap: wrap;
     }
 
@@ -1049,32 +1053,12 @@ footer .footerBox:last-of-type p {
         background-size: 4%;
     }
 
-}
-
-@media all and (max-width:425px) {
-    /*
-    .darkBtn {
-        font-size: 2vw;
-        width: 18.7vw;
-        height: 6.5vw;
+    .section9 {
+        padding: 13% 0 0;
     }
 
-    .whiteBtn {
-        font-size: 2vw;
-        height: 6.3vw;
-        width: 24.7vw;
+    .section9 .inputBox .footerBtn {
+        box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
     }
-
-    .whiteBtn span {
-        font-size: 2vw;
-        background-size: 9%;
-    }
-
-    .p {
-        line-height: 1.4;
-        font-size: 3vw;
-        font-family: 'GOTHAMROUNDED-BOOK';
-    }
-*/
 
 }

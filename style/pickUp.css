@@ -536,16 +536,20 @@ tbody.collapse.show {
 footer {
     padding: 6vw 8vw 1.9vw 11.4vw;
 }
-.section9
-{
+
+.section9 {
     display: none;
 }
 
 @media all and (max-width:768px) {
-    .section9
-{
-    display: flex;
-}
+    footer {
+        padding: 0 7% 3.9vw;
+    }
+
+    .section9 {
+        display: flex;
+    }
+
     .containerBox {
         padding: 9.6% 11% 12.3% 11%;
         border-top: none;

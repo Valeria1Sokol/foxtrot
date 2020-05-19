@@ -195,18 +195,24 @@ header {
 
 
 @media all and (max-width:768px) {
+    .whiteBtn span {
+        font-size: 1.8vw;
+        padding: 1vw 3.4vw 0 0;
+        background-position: 87%;
+    }
+
     header {
         box-shadow: none;
         background-color: #C4EBF7 !important;
     }
-    .nav-pills
-    {
+
+    .nav-pills {
         background-color: #C4EBF7 !important;
     }
 
     .section9 {
         display: flex !important;
-            padding: 14% 0 0;
+        padding: 14% 0 0;
     }
 
     .section2 .box .img {

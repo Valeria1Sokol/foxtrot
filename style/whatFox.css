@@ -313,16 +313,20 @@ footer {
 .section6 .top .boxLeft {
     display: none;
 }
-.section9
-{
-    display: none!important;
+
+.section9 {
+    display: none !important;
 }
 
 @media all and (max-width:768px) {
-    .section9
-{
-    display: flex!important;
-}
+    .section3 .box:nth-of-type(2) .text {
+        width: 45%;
+    }
+
+    .section9 {
+        display: flex !important;
+    }
+
     header {
         box-shadow: none;
     }
@@ -369,11 +373,12 @@ footer {
 
     .section2 .darkBtn,
     .section6 .darkBtn {
-        width: 27.7vw;
-        height: 6.5vw;
-        font-size: 1.7vw;
+        width: 35.7vw;
+        height: 8.5vw;
+        font-size: 2.5vw;
         background-position: 91%;
         padding: 0 2.3vw 0 0;
+        border-radius: 10vw;
     }
 
     .section2 .video {

@@ -508,10 +508,12 @@ body {
     }
 
     .section5 .boxCont .box .darkBtn {
-        font-size: 1.15vw;
-        width: 18.7vw;
-        height: 5vw;
+        font-size: 2vw;
+        width: 24.7vw;
+        height: 6vw;
         padding: 0vw 5.3vw 0.2vw 2.8vw;
+        background-size: 8%;
+        background-position: 90%;
     }
 
     .section5 .boxCont {
@@ -519,7 +521,8 @@ body {
     }
 
     .section5 .boxCont .box {
-        width: 22vw;
+        width: 25vw;
+        margin: 0 6% 0 0;
     }
 
     .section6 {
@@ -664,7 +667,7 @@ body {
         display: flex;
     }
 
-  
+
 }
 
 
@@ -678,6 +681,13 @@ body {
         background-size: cover;
         animation: wave 5s linear infinite;
     }
+
+    .mobileWave .wave {
+        position: absolute;
+        z-index: 10;
+        top: 2vw;
+    }
+
 
     .section5 .boxCont .box .darkBtn {
         font-size: 1.8vw;
@@ -703,7 +713,7 @@ body {
 
     .section3,
     .mobileWave {
-        height: 51px;
+        height: 52px;
     }
 
 
