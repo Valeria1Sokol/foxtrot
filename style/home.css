@@ -75,6 +75,10 @@ body {
     background-color: #D8D6D6;
     margin: -4.4vw 0 4vw;
     position: relative;
+    background-image: url(../img/laptop-chilling.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .pinkText {
@@ -116,7 +120,7 @@ body {
 .btnCont img {
     position: absolute;
     width: 1.5vw;
-    margin: 0 0 0 10vw;
+    margin: 0 0 0 21vw;
 }
 
 .section3 {

@@ -76,6 +76,10 @@ footer {
     height: 32.7vw;
     background-color: #D8D6D6;
     margin: 0 0 5.8vw;
+    background-image: url(../img/laptop-chilling.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .section2 .darkBtn,
